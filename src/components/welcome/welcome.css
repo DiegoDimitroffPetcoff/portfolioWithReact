@@ -1,0 +1,39 @@
+#welcome {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 100px;
+  padding-top: 50px;
+  width: 80%;
+}
+
+#welcome h1 {
+  border-bottom: 3px solid #ffffff3d;
+  padding-bottom: 30px;
+  font-family: revert;
+  color: whitesmoke;
+}
+
+h3{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: whitesmoke;
+
+}
+#welcome a:first-of-type {
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+  transition: 1s;
+  text-decoration-line: unset;
+  font-size: 30px;
+}
+
+#welcome a:first-of-type:hover {
+ position: relative;
+  color: #ece7f4c7;
+  transition:1s;
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+}
