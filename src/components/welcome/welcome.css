@@ -30,6 +30,7 @@ h3 {
   text-decoration-line: unset;
   font-size: 30px;
   padding: 0px;
+  padding-left: 10px;
 }
 
 #welcome a {
@@ -42,6 +43,11 @@ h3 {
   color: #ece7f4c7;
   transition: 1s;
   font-size: 35px;
+
+}
+
+#iconsWelcome {
+  padding: 10px;
 
 }
 

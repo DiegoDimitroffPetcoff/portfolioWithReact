@@ -99,14 +99,18 @@
   color: #dcdcdc;
 }
 
-
 #headerMenu.show nav {
   opacity: 1;
   visibility: visible;
   height: 44%;
   backdrop-filter: blur(5px);
+  border-radius: 10px;
+  z-index: 9999;
 }
 
 #headerMenu.back nav {
   backdrop-filter: blur(5px);
 }
+
+
+

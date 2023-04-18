@@ -1,0 +1,15 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  width: 45%;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.imagenArticle {
+  border: solid black;
+  width: 100%;
+  background-color: red;
+  height: 30%;
+}

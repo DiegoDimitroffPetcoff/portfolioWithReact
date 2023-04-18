@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 function ProjectList() {
   return (
     <div>
-      <h1>Project</h1>
+      <h1>  HOME</h1>
       <Outlet></Outlet>
     </div>
   );

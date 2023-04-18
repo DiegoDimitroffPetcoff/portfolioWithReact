@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./header.css";
 import Welcome from ".././welcome/welcome";
-
+import {  AiOutlineMenu  } from "react-icons/ai";
 import { useState } from 'react';
 
 
@@ -14,21 +14,21 @@ export function Header() {
     setIsMenuOpen(!isMenuOpen);
     console.log("si")
     document.getElementById("headerMenu").classList.toggle("show");
-    
+
   };
 
   return (
     <div>
     <div id="headerMenu">
-      <button onClick={toggleMenu}>Menu</button>
+      <button onClick={toggleMenu}>MENU <AiOutlineMenu></AiOutlineMenu></button>
       <nav>
         <ul>
           <li>
-            <Link to="/projectlist">Home</Link>
+            <Link to="/">Home</Link>
           </li>
-          <Link to="/projectlist">About Me</Link>
+          <Link to="/aboutme">About Me</Link>
           <li>
-            <Link to="/projectlist">Some Articles</Link>
+            <Link to="/articles">Some Articles</Link>
           </li>
           <li>
             <Link to="/projectlist">Projects</Link>

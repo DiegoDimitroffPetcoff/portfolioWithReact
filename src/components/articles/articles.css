@@ -1,0 +1,12 @@
+.articlesContent{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    flex-wrap: wrap;
+    background-color: rgb(18 17 15 / 28%);
+    margin: 10%;
+    margin-top: 0;
+    align-items: center;
+    align-content: center;
+    justify-content: center;;
+}
