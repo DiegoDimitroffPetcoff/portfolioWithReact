@@ -1,4 +1,5 @@
 import React from "react";
+import Imagen from "../../../assests/images/7.png"
 
 
 
@@ -6,9 +7,9 @@ function Article3() {
   return (
     <div className="card">
     
-    <div className="imagenArticle">IMAGEN</div>
-    <h2>Title</h2>
-    <p>TEXTO descriptivo</p>
+    <img className="imagenArticle" src={Imagen} alt="Ecommerce Project"/>
+    <h2 className="cardTitle">Title</h2>
+    <span className="cardText">TEXTO descriptivo</span>
     </div>
   );
 }

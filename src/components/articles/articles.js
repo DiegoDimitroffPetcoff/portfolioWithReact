@@ -12,6 +12,7 @@ function Articles() {
   return (
     <div >
       <Header></Header>
+      <h1 className="titlePage">Some Artickes</h1>
       <div className="articlesContent">
       <Article1></Article1>
       <Article2></Article2>

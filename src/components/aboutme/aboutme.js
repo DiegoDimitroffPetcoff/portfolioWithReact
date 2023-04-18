@@ -6,7 +6,7 @@ function Aboutme() {
   return (
     <div>
       <Header></Header>
-      <h1 className="aboutMeTitle">About Me</h1>
+      <h1 className="titlePage">About Me</h1>
       <p>
        <div>A LIFETIME BEFORE PROGRAMMING! </div>
        Hi! I am Diego Dimitroff Petcoff. I am 33

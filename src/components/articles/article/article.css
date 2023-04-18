@@ -1,15 +1,50 @@
 .card {
   display: flex;
   flex-direction: column;
-  background-color: aquamarine;
-  width: 45%;
+  width: 550px;
+  height: 600px;
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 60px rgba(72, 33, 229, 0.2);
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .imagenArticle {
-  border: solid black;
   width: 100%;
   background-color: red;
-  height: 30%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.cardTitle {
+  color: whitesmoke;
+  border-bottom: solid 3px rgba(255, 255, 255, 0.125);
+  border-width: 1px;
+
+  text-align: center;
+}
+
+.cardText {
+  color: whitesmoke;
+  text-align: justify;
+  padding: 20px;
+}
+
+.cardLink {
+  color: whitesmoke;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.cardIcon {
+  font-size: 30px;
+  font-weight: bold;
+  color: whitesmoke;
+  height: 0;
+  width: 0;
 }

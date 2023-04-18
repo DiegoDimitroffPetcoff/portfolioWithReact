@@ -3,10 +3,14 @@
     flex-direction: row;
     width: auto;
     flex-wrap: wrap;
-    background-color: rgb(18 17 15 / 28%);
+    /* background-color: rgb(18 17 15 / 28%); */
     margin: 10%;
     margin-top: 0;
     align-items: center;
     align-content: center;
-    justify-content: center;;
+    justify-content: center;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 60px rgba(0, 0, 0, 0.2); */
+
+    /* backdrop-filter: blur(5px); */
 }
