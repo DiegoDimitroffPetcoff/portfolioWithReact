@@ -1,0 +1,23 @@
+.titlePage{
+  color: whitesmoke;
+  margin: 10px 220px; 
+
+}
+
+.subtitlePage{
+color: whitesmoke;
+margin: 10px 220px;
+border-bottom: 3px solid #ffffff66;
+
+font-size: 20px;
+text-decoration: none;
+font-weight:normal ;
+}
+
+
+
+p{
+  color: whitesmoke;
+  margin: 70px 220px;
+}
+

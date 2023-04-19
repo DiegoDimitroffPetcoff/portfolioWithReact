@@ -6,15 +6,12 @@
   flex-wrap: wrap;
   margin: 15px;
   border-radius: 10px;
-  box-shadow: 0 0 60px rgba(72, 33, 229, 0.2);
-  backdrop-filter: blur(5px);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
 .imagenArticle {
   width: 100%;
-  background-color: red;
-  height: auto;
+    height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -30,7 +27,7 @@
 .cardText {
   color: whitesmoke;
   text-align: justify;
-  padding: 20px;
+  padding: 10px;
   font-size: 15px;
 }
 

@@ -1,11 +1,11 @@
 import React from "react";
-import Imagen from "../../../assests/images/3.png";
+import Imagen from "../../../assests/images/9.png";
 
 function Article5() {
   return (
     <div className="card">
-      <img className="imagenArticle" src={Imagen} alt="Ecommerce Project" />
-      <h2 className="cardTitle">API CRUD</h2>
+      <img className="imagenArticle" src={Imagen} alt="Rock, Paper and scissors" />
+      <h2 className="cardTitle">Rock, Paper and scissors Game</h2>
       <span className="cardText">
         This project presents an example of a Node.js server that uses Express.js
         to handle HTTP requests and provides a RESTful API for CRUD operations

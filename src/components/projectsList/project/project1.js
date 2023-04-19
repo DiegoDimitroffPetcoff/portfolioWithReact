@@ -18,12 +18,14 @@ function Article1() {
         ago I moved the deploy to a new tool called Railway. You can read the
         article I wrote about it HERE!
       </span>
-  
-      <Link className="cardLink" to="/">
-      <span className="cardIcon">
-        <AiOutlineArrowRight></AiOutlineArrowRight>
-      </span> A litle more about this project?
-      </Link>
+      <div>
+        <Link className="cardLink" to="/">
+          <span className="cardIcon">
+            <AiOutlineArrowRight></AiOutlineArrowRight>
+          </span>{" "}
+          A litle more about this project?
+        </Link>
+      </div>
     </div>
   );
 }
