@@ -14,7 +14,16 @@ function Articles() {
   return (
     <div >
       <Header></Header>
-  
+      <h1 className="titlePage">Projects</h1>
+      <h2 className="subtitlePage">In this section I will be posting all my projects, from the newest to the oldest.</h2>
+      <div className="articlesContent">
+      <Article1></Article1>
+      <Article2></Article2>
+      <Article3></Article3>
+      <Article4></Article4>
+      <Article5></Article5>
+      <Article6></Article6>
+      </div>
     </div>
   );
 }

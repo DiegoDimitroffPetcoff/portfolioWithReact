@@ -7,6 +7,8 @@
   margin: 15px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
+      justify-content: space-between;
+      padding-bottom: 3px;
 }
 
 .imagenArticle {
@@ -20,7 +22,6 @@
   color: whitesmoke;
   border-bottom: solid 3px rgba(255, 255, 255, 0.125);
   border-width: 1px;
-
   text-align: center;
 }
 
@@ -31,12 +32,28 @@
   font-size: 15px;
 }
 
+.cardContentLink{
+  display: flex;
+  flex-direction: column;
+
+
+}
+
 .cardLink {
   color: whitesmoke;
   text-align: center;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: bold;
+}
+
+.cardLink:hover {
+  color: rgb(147, 154, 218);
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+
+ 
 }
 
 .cardIcon {
