@@ -1,11 +1,13 @@
 import React from "react";
 
-import Header from "../header/header";
+import Nav from "../nav/nav";
 import './aboutme.css'
+import Welcome from "../welcome/welcome";
 function Aboutme() {
   return (
     <div>
-      <Header></Header>
+      <Nav></Nav>
+      <Welcome></Welcome>
       <h1 className="titlePage">About Me</h1>
       <p>
        <div>A LIFETIME BEFORE PROGRAMMING! </div>

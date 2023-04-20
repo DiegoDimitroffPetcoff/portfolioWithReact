@@ -1,0 +1,31 @@
+.profileContent{
+  
+  display: flex;
+  flex-direction: row;
+
+  padding: 30px;
+  font-family: revert;
+  color: whitesmoke;
+  margin: 0px 220px;
+
+
+}
+
+.textProfileContent{
+  padding: 80px 30px;
+  text-align: end;
+}
+
+.textProfileContentRigth >h1{
+  border-bottom: solid #ffffff3d 1px;
+  text-align:start;
+}
+
+.textProfileContent >h1{
+  border-bottom: solid #ffffff3d 1px;
+
+}
+
+.imagenProfile{
+  border-radius: 50%;
+}

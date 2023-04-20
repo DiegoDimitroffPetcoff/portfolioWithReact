@@ -23,13 +23,19 @@ function Nav() {
           <li>
             <Link to="/">Home</Link>
           </li>
+          <li>
           <Link to="/aboutme">About Me</Link>
+          </li>
+          <li>
+          <Link to="/aboutMyStudies">My Studies</Link>
+          </li>
           <li>
             <Link to="/articles">Some Articles</Link>
           </li>
           <li>
             <Link to="/projectlist">Projects</Link>
           </li>
+          
         </ul>
       </nav>
   

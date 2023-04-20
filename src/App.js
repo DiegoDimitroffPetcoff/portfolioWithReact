@@ -9,6 +9,8 @@ import ProjectsList from "./components/projectsList/projectsList.js";
 
 import ProjectDescription1 from "./components/projectsList/projectDescriptions.js/project1Description.js";
 
+import MyStudies from "./components/welcome/myStudies.js"
+
 function App() {
   return (
     <Routes>
@@ -16,6 +18,7 @@ function App() {
       <Route path="/aboutme" element={<Aboutme />}></Route>
       <Route path="/projectlist" element={<ProjectsList />}></Route>
       <Route path="/projectDescription1" element={<ProjectDescription1 />}></Route>     
+      <Route path="/aboutMyStudies" element={<MyStudies />}></Route> 
    
     </Routes>
   );
