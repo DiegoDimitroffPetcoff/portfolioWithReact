@@ -1,4 +1,5 @@
 .imagenMyExperience{
-  width: 40%;
+  width: 300px;
   border-radius: 50%;
+  object-fit:cover; 
 }
