@@ -2,18 +2,18 @@
   display: flex;
   flex-direction: column;
   width: 550px;
-  height: 600px;
-  flex-wrap: wrap;
+  height: 650px;
+  flex-wrap: nowrap;
   margin: 15px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
-      justify-content: space-between;
-      padding-bottom: 3px;
+  justify-content: space-between;
+  padding-bottom: 3px;
 }
 
 .imagenArticle {
   width: 100%;
-    height: auto;
+  height: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -30,13 +30,12 @@
   text-align: justify;
   padding: 10px;
   font-size: 15px;
+  
 }
 
-.cardContentLink{
+.cardContentLink {
   display: flex;
   flex-direction: column;
-
-
 }
 
 .cardLink {
@@ -52,8 +51,6 @@
   text-align: center;
   text-decoration: none;
   font-size: 15px;
-
- 
 }
 
 .cardIcon {

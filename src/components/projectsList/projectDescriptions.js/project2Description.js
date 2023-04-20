@@ -7,15 +7,13 @@ import {
   AiOutlineDeploymentUnit,
 } from "react-icons/ai";
 
-
-function Article3() {
+function Article2() {
   return (
     <div className="card">
-    
     <img className="imagenArticle" src={Imagen} alt="Ecommerce Project"/>
-    <h2 className="cardTitle">Title</h2>
-    <span className="cardText">TEXTO descriptivo</span>
-    <div className="cardContentLink">
+      <h2 className="cardTitle">Title</h2>
+      <span className="cardText"> TEXTO descriptivo</span>
+      <div className="cardContentLink">
         <Link className="cardLink" to="/">
           <AiOutlineArrowRight></AiOutlineArrowRight> A litle more about this
           project?
@@ -28,7 +26,8 @@ function Article3() {
         </Link>
       </div>
     </div>
+    
   );
 }
 
-export default Article3;
+export default Article2;
