@@ -39,7 +39,7 @@ function BlogArticle1() {
           border-radius="0px"
           allowfullscreen=""
           title="Embedded post"
-          height="731"
+          height="500"
           frameborder="0"
         ></iframe>
       </div>

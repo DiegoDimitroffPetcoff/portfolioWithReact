@@ -4,6 +4,8 @@ import "./profile.css";
 import "./myExperience.css";
 import "./blog.css"
 import BlogArticle1 from "../blogArticles.js/blogArticle1";
+import BlogArticle2 from "../blogArticles.js/blogArticle2";
+import BlogArticle3 from "../blogArticles.js/blogArticle3";
 
 
 
@@ -22,7 +24,8 @@ function BlogsList() {
       </div>
     
       <div><BlogArticle1></BlogArticle1></div>
-   
+      <div><BlogArticle2></BlogArticle2></div>
+      <div><BlogArticle3></BlogArticle3></div>
 
      
     </div>
