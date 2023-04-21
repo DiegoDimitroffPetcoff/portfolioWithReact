@@ -15,7 +15,7 @@ function MyExperience() {
         alt="Diego Dimitroff Petocff Experience"
       />
       <div className="textProfileContentRigth">
-        <h1 > MY EXPERIENCE</h1>
+        <h1 > My Experience</h1>
         <ul>
           <li>
             BACKEND PROGRAMER | Internship NO COUNTRY - Team selected | July -

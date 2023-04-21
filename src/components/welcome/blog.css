@@ -1,0 +1,55 @@
+.conteinerBlogList {
+  display: flex;
+  flex-direction: column;
+  margin: 3px 15%;
+}
+
+.titleBlogList {
+  color: whitesmoke;
+  border-bottom: solid #ffffff3d 3px;
+  text-align: center;
+}
+
+.textBlogList {
+  color: whitesmoke;
+  padding: 3px 10%;
+  text-align: justify;
+}
+
+.conteinerBlog {
+  background-color: #1e1b47;
+  border-radius: 5px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 2%;
+}
+
+.dateBlog {
+  color: whitesmoke;
+  padding: 0 3%;
+  margin-bottom: 0;
+}
+.titleBlog {
+  color: whitesmoke;
+  border-bottom: solid #ffffff3d 3px;
+
+  padding: 3px 3%;
+}
+
+.textBlog {
+  color: whitesmoke;
+  padding: 3px 3%;
+  text-align: justify;
+}
+
+.LinkBlog {
+  color: whitesmoke;
+  padding: 3px 3%;
+  text-align: center;
+}
+
+.linkedinPostBlog {
+  margin: 5%;
+  width: 90%;
+}
