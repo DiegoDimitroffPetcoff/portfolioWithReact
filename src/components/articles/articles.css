@@ -1,0 +1,35 @@
+.articlesContent {
+  padding: 0 10%;
+}
+
+.bottomArticle {
+  width: 100%;
+  height: 50px;
+  background-color: #1e1b47;
+  border-radius: 5px;
+  font-family: emoji;
+  font-size: 30px;
+  color: whitesmoke;
+  transition: 5s;
+  cursor: pointer;
+}
+
+.bottomCloseArticle {
+  height: 30px;
+  background-color: #1e1b47;
+  border-radius: 5px;
+  font-family: emoji;
+  font-size: 15px;
+  color: whitesmoke;
+  margin: 0;
+  transition: 3s;
+  width: 20%;
+  cursor: pointer;
+}
+
+.bottomArticle:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.bottomCloseArticle:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
