@@ -8,12 +8,16 @@ import {
   AiFillPhone,
 } from "react-icons/ai";
 import "./welcome.css";
+
 function Welcome() {
   return (
     <div id="welcome">
       <h3>Welcome to my portfolio!</h3>
       <h1>DIEGO DIMITROFF PETCOFF</h1>
-      <Link to="/projectlist">Check my CV</Link>
+      <a href="./CV.pdf" target="_blank" download="CV-DiegoDimitroffPetcoff">
+        Check my CV
+      </a>
+
       <div id="iconsWelcome">
         <Link
           to="https://github.com/DiegoDimitroffPetcoff"

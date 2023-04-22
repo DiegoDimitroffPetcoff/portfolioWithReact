@@ -1,8 +1,8 @@
 import React from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useState } from "react";
-import Profile from "../welcome/profile";
-import { Outlet, Link } from "react-router-dom";
+
+import {  Link } from "react-router-dom";
 import "../welcome/welcome.css";
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ function Nav() {
           <Link to="/aboutMyStudies">My Studies</Link>
           </li>
           <li>
-            <Link to="/articles">Some Articles</Link>
+            <Link to="/articlesList">Some Articles</Link>
           </li>
           <li>
             <Link to="/projectlist">Projects</Link>
