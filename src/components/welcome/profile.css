@@ -1,31 +1,59 @@
-.profileContent{
-  
+.profileContent {
   display: flex;
   flex-direction: row;
 
-  padding: 30px;
+  padding: 70px 0;
   font-family: revert;
   color: whitesmoke;
   margin: 0px 220px;
-
-
 }
 
-.textProfileContent{
+.textProfileContent {
   padding: 80px 30px;
   text-align: end;
 }
 
-.textProfileContentRigth >h1{
+.textProfileContentRigth > h1 {
   border-bottom: solid #ffffff3d 1px;
-  text-align:start;
+  text-align: start;
 }
 
-.textProfileContent >h1{
+.textProfileContent > h1 {
   border-bottom: solid #ffffff3d 1px;
-
 }
 
-.imagenProfile{
+.imagenProfile {
   border-radius: 50%;
+}
+
+@media (max-width: 967px) {
+  .profileContent {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 20px 0px;
+    font-family: revert;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column-reverse;
+  }
+
+
+  .textProfileContent > h1 {
+    border-bottom: solid #ffffff3d 1px;
+    font-size: 30px;
+    padding: 0;
+
+
+  }
+  .textProfileContentRigth > h1 {
+    border-bottom: solid #ffffff3d 1px;
+    text-align: start;
+    font-size: 30px;
+  }
+
+  .imagenProfile {
+width: 300px;
+  }
 }

@@ -104,3 +104,11 @@
 #headerMenu.back nav {
   backdrop-filter: blur(5px);
 }
+
+
+@media (max-width: 767px) {
+
+#headerMenu button {
+  position: sticky;
+}
+}

@@ -3,3 +3,20 @@
   border-radius: 50%;
   object-fit:cover; 
 }
+
+.imagenMySkills{
+  width: 300px;
+  border-radius: 50%;
+  object-fit:cover; 
+}
+
+@media (max-width: 767px) {
+.imagenMySkills{
+
+flex-direction: column-reverse;
+}
+.imagenMyExperience{
+padding-top: 20px;
+  flex-direction: column-reverse;
+  }
+  }
