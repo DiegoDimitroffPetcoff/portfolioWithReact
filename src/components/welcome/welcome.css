@@ -2,9 +2,9 @@
   display: flex;
   flex-direction: column;
   color: white;
-  margin: 70px 220px;
+  margin: 5% 10%;
 
-  width: 80%;
+  width: auto;
 }
 
 #welcome h1 {

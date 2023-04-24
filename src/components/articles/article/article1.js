@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 
 import BlogArticle2 from "../../blogArticles.js/blogArticle2";
-import Nav from "../../nav/nav";
 
-import Welcome from "../../welcome/welcome";
 
 function Article1() {
   const [mostrarComponente, setMostrarComponente] = useState(false);
