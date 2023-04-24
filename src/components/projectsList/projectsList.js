@@ -18,7 +18,7 @@ function ProjectsList() {
    <Welcome></Welcome>
       <h1 className="titlePage">Projects</h1>
       <h2 className="subtitlePage">In this section I will be posting all my projects, from the newest to the oldest.</h2>
-      <div className="articlesContent">
+      <div className="projectsContent">
       <Article1></Article1>
       <Article2></Article2>
       <Article3></Article3>
