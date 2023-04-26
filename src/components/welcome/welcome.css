@@ -15,8 +15,6 @@
   font-size: 50px;
 }
 
-
-
 h3 {
   font-size: 20px;
   font-family: sans-serif;
@@ -45,12 +43,10 @@ h3 {
   color: #ece7f4c7;
   transition: 1s;
   font-size: 35px;
-
 }
 
 #iconsWelcome {
   padding: 10px;
-
 }
 
 #iconsWelcome a:first-of-type {
@@ -65,14 +61,50 @@ h3 {
   font-size: 50px;
 }
 
-
-
 @media (max-width: 767px) {
-#welcome h1 {
-  border-bottom: 3px solid #ffffff3d;
+  #welcome h1 {
+    border-bottom: 2px solid #ffffff3d;
+padding-bottom: 13px;
+    font-family: revert;
+    color: whitesmoke;
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 15px;
+    font-family: inherit;
+    font-weight: 100;
+    color: whitesmoke;
+    margin: 0;
+  }
+
+  #welcome a:first-of-type {
+    font-family: "Courier New", Courier, monospace;
+    color: whitesmoke;
+    transition: 1s;
+    text-decoration-line: unset;
+    font-size: 15px;
+    padding: 0px;
+    padding-left: 1px;
   
-  font-family: revert;
-  color: whitesmoke;
-  font-size: 50px;
-}
+  }
+
+  #welcome a {
+    color: white;
+    font-size: 60px;
+  }
+  
+  #iconsWelcome a:first-of-type {
+    padding: 0;
+    color: white;
+    font-size: 60px;
+  }
+  
+  #iconsWelcome a:first-of-type:hover {
+    padding: 0;
+    color: white;
+    font-size: 60px;
+  }
+
+
+
 }

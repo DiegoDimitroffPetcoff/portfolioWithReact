@@ -108,7 +108,26 @@
 
 @media (max-width: 767px) {
 
+
+
 #headerMenu button {
+  background-color: transparent;
   position: sticky;
+  color: #fff;
+  font-size: 1.25rem;
+  cursor: pointer;
+  position: relative;
+  left: 230px;
+  top: 20px;
+  border: solid 3px;
+
+  border-radius: 5px;
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
+  padding: 10px;
+
+}
+
+.menuLetters{
+visibility: hidden;
 }
 }

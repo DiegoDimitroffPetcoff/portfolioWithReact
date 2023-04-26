@@ -16,7 +16,7 @@ function Nav() {
   return (
     <div id="headerMenu">
       <button onClick={toggleMenu}>
-        MENU <AiOutlineMenu></AiOutlineMenu>
+        <span className="menuLetters">MENU</span> <AiOutlineMenu></AiOutlineMenu>
       </button>
       <nav>
         <ul>
