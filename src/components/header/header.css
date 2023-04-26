@@ -75,15 +75,11 @@
   transition: all 0.2s ease;
 }
 
-#headerMenu a:active {
-width: 0;
-}
-
 #headerMenu li:nth-child(1) a:nth-child(1) {
   color: white;
   font-size: 30px;
   font-family: Raleway, Helvetica, sans-serif;
-
+ 
 }
 
 #headerMenu li:nth-child(1) {
