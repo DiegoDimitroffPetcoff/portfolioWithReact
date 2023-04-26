@@ -62,7 +62,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 #headerMenu ul li {
@@ -80,6 +79,7 @@
   color: white;
   font-size: 30px;
   font-family: Raleway, Helvetica, sans-serif;
+  background-color: transparent;
 }
 
 #headerMenu li:nth-child(1) {
@@ -87,6 +87,7 @@
   width: 250px;
   text-align: center;
   font-weight: bold;
+  background-color: transparent;
 }
 
 #headerMenu a:hover {
@@ -110,7 +111,6 @@
   #headerMenu button {
     display: flex;
     flex-direction: column;
-
     font-size: 1.25rem;
     cursor: pointer;
     position: relative;
@@ -119,14 +119,13 @@
     border-radius: none;
     box-shadow: none;
     padding: 0;
-
   }
 
   #headerMenu button:active {
-background-color: transparent;
-
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
   }
-
 
   .menuLetters {
     visibility: hidden;
