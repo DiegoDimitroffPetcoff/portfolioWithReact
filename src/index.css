@@ -2,7 +2,7 @@ html {
   height: auto;  
   background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
   background-repeat: no-repeat;
-
+  touch-action: manipulation;
 }
 
 body {
