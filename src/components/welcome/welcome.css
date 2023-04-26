@@ -60,11 +60,30 @@ h3 {
   color: white;
   font-size: 50px;
 }
+.close {
+  width: 10%;
+  position: absolute;
+  background-color: #4c5c96;
+  border-radius: 5px;
+  border: none;
+  right: 15px;
+  top: 10px;
+  color: whitesmoke;
+  cursor:pointer;
+  
+
+}
+
+.close:hover {
+
+  background-color: rgba(0, 0, 0, 0.3);
+
+}
 
 @media (max-width: 767px) {
   #welcome h1 {
     border-bottom: 2px solid #ffffff3d;
-padding-bottom: 13px;
+    padding-bottom: 13px;
     font-family: revert;
     color: whitesmoke;
     font-size: 24px;
@@ -85,26 +104,23 @@ padding-bottom: 13px;
     font-size: 15px;
     padding: 0px;
     padding-left: 1px;
-  
   }
 
   #welcome a {
     color: white;
     font-size: 60px;
   }
-  
+
   #iconsWelcome a:first-of-type {
     padding: 0;
     color: white;
     font-size: 60px;
   }
-  
+
   #iconsWelcome a:first-of-type:hover {
     padding: 0;
     color: white;
     font-size: 60px;
   }
-
-
 
 }

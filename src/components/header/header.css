@@ -21,7 +21,7 @@
   padding: 0.5rem 1rem;
 }
 
-#headerMenu button {
+.headerbuttom {
   background-color: transparent;
   position: fixed;
   color: #fff;
@@ -108,7 +108,7 @@
 }
 
 @media (max-width: 767px) {
-  #headerMenu button {
+  .headerbuttom {
     display: flex;
     flex-direction: column;
     font-size: 1.25rem;
@@ -168,4 +168,7 @@
     width: 100%;
     text-align: center;
   }
+
+  
+
 }
