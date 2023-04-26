@@ -122,6 +122,12 @@
 
   }
 
+  #headerMenu button:active {
+background-color: none;
+
+  }
+
+
   .menuLetters {
     visibility: hidden;
   }
