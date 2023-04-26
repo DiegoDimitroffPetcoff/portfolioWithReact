@@ -3,6 +3,7 @@ html {
   background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
   background-repeat: no-repeat;
   touch-action: manipulation;
+  width: device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no
 }
 
 body {
@@ -19,6 +20,7 @@ body {
   zoom: reset;
   touch-action: manipulation;
   height: 100%;
+  width:device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no
 }
 
 code {
