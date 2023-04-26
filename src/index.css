@@ -8,6 +8,9 @@ body {
 
   background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
   background-repeat: no-repeat;
+
+  zoom: reset;
+  touch-action: manipulation;
 }
 
 code {
@@ -35,3 +38,11 @@ p {
   font-weight: normal;
 }
 
+@media (max-width: 967px) {
+  .titlePage{
+    margin: 5%;
+  }
+  .subtitlePage {
+    margin: 5%;
+  }
+}
