@@ -110,7 +110,7 @@
   #headerMenu button {
     display: flex;
     flex-direction: column;
-    background-color: transparent;
+
     font-size: 1.25rem;
     cursor: pointer;
     position: relative;
