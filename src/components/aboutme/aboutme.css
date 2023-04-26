@@ -26,7 +26,6 @@
   background-color: #4c5c9645;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
-
 }
 
 .AboutmeImage {
@@ -37,10 +36,40 @@
   filter: none;
 }
 
-.AboutMeTitle{
+.AboutMeTitle {
+  color: whitesmoke;
+  margin: 10px 220px;
+  text-align: center;
+  font-size: 500%;
+  font-style: italic;
+}
+
+@media (max-width: 967px) {
+  .AboutmeColumn {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .AboutMeTitle {
     color: whitesmoke;
-    margin: 10px 220px;
+    margin: 0;
     text-align: center;
-    font-size: 500%;
+    font-size: 90px;
     font-style: italic;
+  }
+
+  .AboutmeText {
+    width: 90%;
+    align-self: center;
+    text-align: justify;
+
+    background-color: transparent;
+  }
+
+  .AboutmeImage {
+    align-self: center;
+    border-radius: 10px;
+    width: 50%;
+  }
 }
