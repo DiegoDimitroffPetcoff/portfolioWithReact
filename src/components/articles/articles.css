@@ -19,7 +19,7 @@
   font-family: emoji;
   font-size: 30px;
   color: whitesmoke;
-  transition: 5s;
+
   cursor: pointer;
 }
 
@@ -41,4 +41,18 @@
 }
 .bottomCloseArticle:hover {
   background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+@media (max-width: 967px) {
+
+  .articlesContent{
+    margin: 5%;
+    padding: 0;
+ 
+  }
+  .bottomArticle{
+    font-size: 20px;
+  }
 }
