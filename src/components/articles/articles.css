@@ -5,7 +5,7 @@
   flex-direction: row;
   width: auto;
   flex-wrap: wrap;
- 
+
   align-items: center;
   align-content: center;
   justify-content: center;
@@ -43,16 +43,22 @@
   background-color: rgba(0, 0, 0, 0);
 }
 
-
-
 @media (max-width: 967px) {
-
-  .articlesContent{
+  .articlesContent {
     margin: 5%;
     padding: 0;
- 
   }
-  .bottomArticle{
+  .bottomArticle {
     font-size: 20px;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .contentArticles {
+    background-color: red;
+    width: 100%;
+    min-height: 600px;
   }
 }
