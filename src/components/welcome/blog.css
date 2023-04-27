@@ -53,9 +53,13 @@
   margin: 5%;
   width: 90%;
 }
+.imagePostBlog {
+  margin: 5%;
+  width: 90%;
+  border-radius: 15px
+}
 
-
-@media (max-width: 967px) { 
+@media (max-width: 967px) {
   .conteinerBlogList {
     margin: 3px 5%;
   }
