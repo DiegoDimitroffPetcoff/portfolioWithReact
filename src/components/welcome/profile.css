@@ -22,7 +22,6 @@
 
 .textProfileContent > h1 {
   border-bottom: solid #ffffff3d 1px;
-  
 }
 
 .imagenProfile {
@@ -44,11 +43,13 @@
   }
 
   .profileContent > :first-child {
-    align-self:stretch;
+    align-self:center;
   }
 
   .textProfileContent {
-    padding: 80px 11px;
+    padding: 40px 11px;
+    padding-top: 10;
+
     text-align: end;
   }
 
