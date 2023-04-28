@@ -112,9 +112,9 @@ h3 {
   #welcome a:first-of-type {
     font-family: "Courier New", Courier, monospace;
     color: whitesmoke;
-    transition: 1s;
+  
     text-decoration-line: unset;
-    font-size: 15px;
+    font-size: 25px;
     padding: 0px;
     padding-left: 1px;
     display: flex;
