@@ -18,21 +18,42 @@ function MyExperience() {
       <div className="textProfileContentRigth">
         <h1> My Experience</h1>
         <ul>
-          <li>
+          <li> <div>
             BACKEND PROGRAMER | Internship NO COUNTRY - Team selected | July
-            2022 - Mar 2023
-            <Link to="https://diegodimitroffpetcoff.github.io/Porfolio/images/Certificate-NoCountry-DiegoDimitroffPetcoff.jpg">
-              {" "}
-              - CERTIFICATE -{" "}
+            2022 - Mar 2023</div>
+            <Link
+              to="https://diegodimitroffpetcoff.github.io/Porfolio/images/Certificate-NoCountry-DiegoDimitroffPetcoff.jpg"
+              className="linksMyExperience"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            
+               CERTIFICATE 
             </Link>
-            <Link to="https://www.nocountry.tech/"> - Company Website - </Link>
+            <Link
+              to="https://www.nocountry.tech/"
+              className="linksMyExperience"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+               Company Website {" "}
+            </Link>
           </li>
           <li>T.L. | Internship NO COUNTRY | Sep 2022 - Oct 2022·</li>
 
-          <li>
+          <li><div>
             Data analyst at Google analytics | Internship AUMLA |July 2021 -
-            September 2021·
-            <Link to="https://www.aumla.se/"> - Company Website - </Link>
+            September 2021·</div>
+            <Link
+              to="https://www.aumla.se/"
+              className="linksMyExperience"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+               Company Website {" "}
+            </Link>
           </li>
         </ul>
       </div>
