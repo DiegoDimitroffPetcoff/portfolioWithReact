@@ -13,7 +13,6 @@
 
 .linksMyExperience {
   display: inline-block;
-
   text-decoration: unset;
   border: solid 1px rgb(0 0 0 / 20%);
   border-radius: 10px;
@@ -25,6 +24,28 @@
   
 }
 
+.linksMyExperience:hover {
+background-color: #8791c7;
+transition: 0.3s;
+  
+}
+
+.linkMyExperienceMore{
+  display: inline-block;
+  text-decoration: unset;
+  border: solid 1px rgb(0 0 0 / 20%);
+  border-radius: 10px;
+  margin: 2px;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 2px;
+  font-size: 90%;
+}
+.linkMyExperienceMore:hover {
+  background-color: #8791c7;
+  transition: 0.3s;
+    
+  }
 .linksMyExperience:visited {
   color: whitesmoke;
 }
@@ -37,6 +58,19 @@
     display: flex;
 
   }
-
+  .linkMyExperienceMore{
+    display: inline-block;
+  
+    text-decoration: unset;
+  
+ 
+    border-radius: 10px;
+    margin: 2px;
+  
+    color: rgb(245, 245, 245);
+    padding: 2px;
+    font-size: 90%;
+  }
+  
 
 }
