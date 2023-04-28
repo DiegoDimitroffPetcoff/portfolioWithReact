@@ -47,7 +47,9 @@ h3 {
 
 #iconsWelcome {
   padding: 10px;
+
 }
+
 
 #iconsWelcome a:first-of-type {
   padding: 0;
@@ -81,6 +83,11 @@ h3 {
 }
 
 @media (max-width: 767px) {
+
+  #welcome{
+    margin: 25% 10%;
+  }
+
   #welcome h1 {
     border-bottom: 2px solid #ffffff3d;
     padding-bottom: 13px;
@@ -96,6 +103,12 @@ h3 {
     margin: 0;
   }
 
+  #iconsWelcome {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
   #welcome a:first-of-type {
     font-family: "Courier New", Courier, monospace;
     color: whitesmoke;
@@ -104,6 +117,9 @@ h3 {
     font-size: 15px;
     padding: 0px;
     padding-left: 1px;
+    display: flex;
+    justify-content: center;
+    ;
   }
 
   #welcome a {

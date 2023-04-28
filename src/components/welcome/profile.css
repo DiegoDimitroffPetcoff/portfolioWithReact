@@ -11,6 +11,7 @@
 .textProfileContent {
   padding: 80px 30px;
   text-align: end;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .textProfileContentRigth > h1 {
@@ -40,14 +41,15 @@
 
   }
 
-
-  .textProfileContent > h1 {
-    border-bottom: solid #ffffff3d 1px;
-    font-size: 30px;
-    padding: 0;
-
-
+  .profileContent > :first-child {
+    align-self:stretch;
   }
+
+  .textProfileContent {
+    padding: 80px 11px;
+    text-align: end;
+  }
+
   .textProfileContentRigth > h1 {
     border-bottom: solid #ffffff3d 1px;
     text-align: start;
@@ -55,6 +57,7 @@
   }
 
   .imagenProfile {
-width: 300px;
+width: 200px;
+align-self: flex-end;
   }
 }
