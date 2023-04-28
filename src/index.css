@@ -48,7 +48,7 @@ p {
 }
 
 @media (max-width: 967px) {
-  body{
+  html{
     background-image: url("./assests/images/background9.png");
     background-repeat: repeat-y;
     background-size: 100%;

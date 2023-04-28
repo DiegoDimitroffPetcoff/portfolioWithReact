@@ -19,7 +19,7 @@
   font-family: emoji;
   font-size: 30px;
   color: whitesmoke;
-
+  border-color: transparent;
   cursor: pointer;
 }
 
