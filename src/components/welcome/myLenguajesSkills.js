@@ -21,7 +21,7 @@ function MyLenguajesSkills() {
         Portuguese!.</div>
         <Link
               to="https://www.efset.org/cert/rumCYA"
-              className="linksMyExperience"
+              className="linksMyExperience rigth"
               target="_blank"
               rel="noopener noreferrer"
             >
