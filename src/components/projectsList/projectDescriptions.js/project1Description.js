@@ -8,12 +8,14 @@ import {
   AiFillGithub,
   AiOutlineDeploymentUnit,
 } from "react-icons/ai";
+import Welcome from "../../welcome/welcome";
 
 import "./projectDescription.css";
 function ProjectDescription1() {
   return (
     <div>
-   <Nav></Nav>
+      <Nav></Nav>
+      <Welcome></Welcome>
       <div className="projectDescriptionContainer">
         <h2 className="projectDescriptionTitle">Ecommerce Project</h2>
         <img
@@ -52,9 +54,9 @@ function ProjectDescription1() {
           project is deployed on Heroku. The emails that were used were made
           through nodemailer..
           <div className="projectDescriptionLinks">
-            <Link className="projectDescriptionLink" to="/">
+            {/*  <Link className="projectDescriptionLink" to="/">
               <AiOutlineDeploymentUnit></AiOutlineDeploymentUnit> DEPLOY CODE
-            </Link>
+            </Link>*/}
             <Link
               className="projectDescriptionLink"
               to="https://github.com/DiegoDimitroffPetcoff/EcommerceProject"
@@ -66,8 +68,8 @@ function ProjectDescription1() {
           </div>
         </span>
 
-        <Link className="cardLink" to="/">
-          BACK HOME
+        <Link className="cardLink" to="/projectlist">
+          BACK
         </Link>
       </div>
     </div>

@@ -8,6 +8,9 @@ import Aboutme from "./components/aboutme/aboutme.js";
 import ProjectsList from "./components/projectsList/projectsList.js";
 
 import ProjectDescription1 from "./components/projectsList/projectDescriptions.js/project1Description.js";
+import ProjectDescription2 from "./components/projectsList/projectDescriptions.js/project2Description.js";
+import ProjectDescription3 from "./components/projectsList/projectDescriptions.js/project3Description.js";
+import ProjectDescription4 from "./components/projectsList/projectDescriptions.js/project4Description.js";
 
 import MyStudies from "./components/welcome/myStudies.js"
 import ArticlesList from "./components/articles/articlesList.js";
@@ -18,7 +21,10 @@ function App() {
       <Route path="/" element={<Header />}></Route> 
       <Route path="/aboutme" element={<Aboutme />}></Route>
       <Route path="/projectlist" element={<ProjectsList />}></Route>
-      <Route path="/projectDescription1" element={<ProjectDescription1 />}></Route>     
+      <Route path="/projectDescription1" element={<ProjectDescription1 />}></Route> 
+      <Route path="/projectDescription2" element={<ProjectDescription2 />}></Route>    
+      <Route path="/projectDescription3" element={<ProjectDescription3 />}></Route> 
+      <Route path="/projectDescription4" element={<ProjectDescription4 />}></Route>     
       <Route path="/aboutMyStudies" element={<MyStudies />}></Route> 
       <Route path="/articlesList" element={<ArticlesList/>}></Route> 
 

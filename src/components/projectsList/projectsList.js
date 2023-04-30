@@ -22,9 +22,9 @@ function ProjectsList() {
       <Article1></Article1>
       <Article2></Article2>
       <Article3></Article3>
-      <Article4></Article4>
-      <Article5></Article5>
-      <Article6></Article6>
+     <Article4></Article4>
+       {/*<Article5></Article5>
+      <Article6></Article6>*/}
       </div>
     </div>
   );

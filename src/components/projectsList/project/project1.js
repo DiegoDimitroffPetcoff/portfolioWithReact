@@ -34,9 +34,9 @@ function Article1() {
         <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/EcommerceProject"  target="_blank" rel="noopener noreferrer">
           <AiFillGithub></AiFillGithub> GIT HUB CODE
         </Link>
-        <Link className="cardLink" to="/">
+       {/* <Link className="cardLink" to="/">
           <AiOutlineDeploymentUnit></AiOutlineDeploymentUnit> DEPLOY CODE
-        </Link>
+        </Link>*/}
       </div>
     </div>
   );
