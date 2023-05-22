@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+import BlogArticle5 from "../blogArticles.js/blogArticle5";
 
 import {
   AiFillGithub,
@@ -10,8 +11,13 @@ import {
 import "./welcome.css";
 
 function Welcome() {
+
+
+
+
   return (
     <div id="welcome">
+
       <h3>Welcome to my portfolio!</h3>
       <h1>DIEGO DIMITROFF PETCOFF</h1>
       <a href="./CV.pdf" target="_blank" download="CV-DiegoDimitroffPetcoff">
@@ -46,6 +52,7 @@ function Welcome() {
           <AiOutlineMail></AiOutlineMail>
         </a>
       </div>
+
     </div>
   );
 }

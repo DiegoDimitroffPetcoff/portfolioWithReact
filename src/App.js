@@ -7,10 +7,12 @@ import Header from "./components/header/header.js";
 import Aboutme from "./components/aboutme/aboutme.js";
 import ProjectsList from "./components/projectsList/projectsList.js";
 
+
 import ProjectDescription1 from "./components/projectsList/projectDescriptions.js/project1Description.js";
 import ProjectDescription2 from "./components/projectsList/projectDescriptions.js/project2Description.js";
 import ProjectDescription3 from "./components/projectsList/projectDescriptions.js/project3Description.js";
 import ProjectDescription4 from "./components/projectsList/projectDescriptions.js/project4Description.js";
+
 
 import MyStudies from "./components/welcome/myStudies.js"
 import ArticlesList from "./components/articles/articlesList.js";
@@ -28,7 +30,9 @@ function App() {
       <Route path="/projectDescription4" element={<ProjectDescription4 />}></Route>     
       <Route path="/aboutMyStudies" element={<MyStudies />}></Route> 
       <Route path="/articlesList" element={<ArticlesList/>}></Route> 
-      <Route path="/project5" element={<Header />}></Route>
+      <Route path="/project5" element={<Header scrollToBlogArticle5={true} />} />
+
+      
    
     </Routes>
   );

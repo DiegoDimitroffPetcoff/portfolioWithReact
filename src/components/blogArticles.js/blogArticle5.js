@@ -3,7 +3,7 @@ import "../welcome/blog.css";
 import { Link } from "react-router-dom";
 import { AiOutlineDeploymentUnit, AiFillGithub } from "react-icons/ai";
 import Imagen from "../../assests/images/11.png";
-function BlogArticle4() {
+function BlogArticle5() {
   return (
     <div className="conteinerBlog">
       <h6 className="dateBlog">22/05/23 </h6>
@@ -105,4 +105,4 @@ function BlogArticle4() {
   );
 }
 
-export default BlogArticle4;
+export default BlogArticle5;

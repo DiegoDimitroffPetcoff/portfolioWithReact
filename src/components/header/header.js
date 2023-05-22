@@ -9,15 +9,15 @@ import BlogsList from "../welcome/blogsList";
 import Nav from "../nav/nav.js";
 import Profile from "../welcome/profile";
 
-export function Header() {
+export function Header({ scrollToBlogArticle5 }) {
   return (
     <div>
       <Nav></Nav>
-      <Welcome></Welcome>
+      <Welcome ></Welcome>
       <Profile></Profile>
       <MyExperience></MyExperience>
       <MyLenguajesSkills></MyLenguajesSkills>
-      <BlogsList></BlogsList>
+      <BlogsList scrollToBlogArticle5={scrollToBlogArticle5}></BlogsList>
     </div>
   );
 }
