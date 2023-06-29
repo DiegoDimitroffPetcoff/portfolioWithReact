@@ -1,13 +1,13 @@
 .card {
   display: flex;
   flex-direction: column;
-  width: 550px;
+  width: 45%;
   height: 650px;
   flex-wrap: nowrap;
   margin: 15px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.2);
-  justify-content: space-between;
+
   padding-bottom: 3px;
 }
 
@@ -60,3 +60,10 @@
   height: 0;
   width: 0;
 }
+@media screen and (max-width: 767px) {
+  .card {
+
+    width: 100%;
+  }
+}
+
