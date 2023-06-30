@@ -1,38 +1,43 @@
 import React from "react";
-import Imagen from "../../../assests/images/8.png";
+import Imagen from "../../../assests/images/12.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineArrowRight,
   AiFillGithub,
   AiOutlineDeploymentUnit,
+  AiOutlineVideoCamera,
 } from "react-icons/ai";
 function Article5() {
   return (
     <div className="card">
       <img className="imagenArticle" src={Imagen} alt="Ecommerce Project" />
-      <h2 className="cardTitle">API CRUD</h2>
+      <h2 className="cardTitle">School API</h2>
       <span className="cardText">
-        This project presents an example of a Node.js server that uses Express.js
-        to handle HTTP requests and provides a RESTful API for CRUD operations
-        on a MongoDB database. The article explains the various components of
-        the application, including middleware for processing JSON and form data,
-        API routes associated with controllers, controllers handling HTTP
-        requests, services interacting with the database, and the database
-        connection itself. The provided code showcases how to use Node.js,
-        Express.js, and MongoDB to create a backend application that can handle
-        CRUD operations on a database.
+        , API Res works with MongoDB, Node.js, and Express. The architecture is
+        designed to make scalability in databases easy to achieve. It uses Open
+        Cors and will be used with a React project to demonstrate its
+        usefulness.
       </span>
       <div className="cardContentLink">
-        <Link className="cardLink" to="/">
+        <Link className="cardLink" to="/ProjectDescription6">
           <AiOutlineArrowRight></AiOutlineArrowRight> A litle more about this
           project?
         </Link>
-        <Link className="cardLink" to="/">
+        <Link
+          className="cardLink"
+          to="https://github.com/DiegoDimitroffPetcoff/backSchoolNeals"
+        >
           <AiFillGithub></AiFillGithub> GIT HUB CODE
         </Link>
-        <Link className="cardLink" to="/">
-          <AiOutlineDeploymentUnit></AiOutlineDeploymentUnit> DEPLOY CODE
+        <Link
+          className="cardLink"
+          to="https://www.linkedin.com/posts/diegodimitroffpetcoff_hi-there-as-i-said-a-few-days-ago-activity-7079911327955136512-kZbF?utm_source=share&utm_medium=member_desktop"
+        >
+          <AiOutlineVideoCamera></AiOutlineVideoCamera> VIDEO TUTORAL AND ARTICLE ON MY LINKEDIN
         </Link>
+        {/*   <Link className="cardLink" to="/">
+          <AiOutlineDeploymentUnit></AiOutlineDeploymentUnit> DEPLOY CODE
+        </Link>*/}
       </div>
     </div>
   );
