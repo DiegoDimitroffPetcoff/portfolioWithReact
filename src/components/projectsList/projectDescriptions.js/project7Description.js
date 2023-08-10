@@ -1,7 +1,7 @@
 import React from "react";
 import Nav from "../../nav/nav";
 
-import Imagen from "../../../assests/images/11.png";
+import Imagen from "../../../assests/images/13.png";
 import { Link } from "react-router-dom";
 import {
 

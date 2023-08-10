@@ -1,5 +1,5 @@
 import React from "react";
-import Imagen from "../../../assests/images/11.png";
+import Imagen from "../../../assests/images/13.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineArrowRight,
