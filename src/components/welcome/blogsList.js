@@ -27,6 +27,16 @@ function BlogsList({ scrollToBlogArticle5 }) {
       });
     }
   }, [scrollToBlogArticle5]);
+
+  const blogArticles = [
+    <BlogArticle5 key="article5" />,
+    <BlogArticle4 key="article4" />,
+    <BlogArticle1 key="article1" />,
+    <BlogArticle2 key="article2" />,
+    <BlogArticle3 key="article3" />,
+  ];
+
+
   return (
     <div className="conteinerBlogList">
       <h1 className="titleBlogList">WORK BLOG</h1>
@@ -37,23 +47,9 @@ function BlogsList({ scrollToBlogArticle5 }) {
         is why I have created this Blog where I will gradually show the projects
         I am working on, the ideas that arise and much more
       </div>
-      <div ref={blogArticle5Ref}>
-        <BlogArticle5 ></BlogArticle5>
-       
-      </div>
-
-      <div>
-        <BlogArticle4></BlogArticle4>
-      </div>
-      <div>
-        <BlogArticle1></BlogArticle1>
-      </div>
-      <div>
-        <BlogArticle2></BlogArticle2>
-      </div>
-      <div>
-        <BlogArticle3  ></BlogArticle3>
-      </div>
+      {blogArticles.map((article) => (
+        <div key={article.key}>{article}</div>
+      ))}
     </div>
   );
 }
