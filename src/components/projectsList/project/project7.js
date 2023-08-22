@@ -25,24 +25,16 @@ function Article6() {
           <AiOutlineArrowRight></AiOutlineArrowRight> A litle more about this
           project?
         </Link>
-        <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/ZucaBranch">
+        <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/schoolproject">
           <AiFillGithub></AiFillGithub> GIT HUB CODE FRONT
         </Link>
    
-        <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/zucaArq">
+        <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/backSchoolNeals">
           <AiFillGithub></AiFillGithub> GIT HUB CODE BACK
         </Link>
-        <Link className="cardLink" to="https://zucaarct.vercel.app/">
+        <Link className="cardLink" to="https://schoolproject-nine.vercel.app/">
           <AiOutlineDeploymentUnit></AiOutlineDeploymentUnit> DEPLOYED CODE
         </Link>
-        <Link
-               className="cardLink"
-              to="https://www.linkedin.com/pulse/my-web-development-project-platform-architectural-diego-leonardo%3FtrackingId=cy46zjxnVqwEezUumsKDcg%253D%253D/?trackingId=cy46zjxnVqwEezUumsKDcg%3D%3D"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <AiOutlineFile></AiOutlineFile> Article that I wrote about this project
-            </Link>
       </div>
     </div>
   );
