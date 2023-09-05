@@ -10,10 +10,12 @@ import Article4 from "./project/project4";
 import Article5 from "./project/project5";
 import Article6 from "./project/project6";
 import Article7 from "./project/project7";
+import Article8 from "./project/project8";
 import Welcome from "../welcome/welcome";
 
 function ProjectsList() {
   const articles = [
+    Article8,
     Article7,
     Article6,
     Article5,

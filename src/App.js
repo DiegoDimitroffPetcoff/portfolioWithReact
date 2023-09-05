@@ -15,6 +15,7 @@ import ProjectDescription4 from "./components/projectsList/projectDescriptions.j
 import ProjectDescription5 from "./components/projectsList/projectDescriptions.js/project5Description.js";
 import ProjectDescription6 from "./components/projectsList/projectDescriptions.js/project6Description.js";
 import ProjectDescription7 from "./components/projectsList/projectDescriptions.js/project7Description.js";
+import ProjectDescription8 from "./components/projectsList/projectDescriptions.js/project8Description.js";
 
 import MyStudies from "./components/welcome/myStudies.js"
 import ArticlesList from "./components/articles/articlesList.js";
@@ -33,6 +34,7 @@ function App() {
       <Route path="/projectDescription5" element={<ProjectDescription5 />}></Route>   
       <Route path="/projectDescription6" element={<ProjectDescription6 />}></Route>
       <Route path="/projectDescription7" element={<ProjectDescription7 />}></Route>
+      <Route path="/projectDescription8" element={<ProjectDescription8 />}></Route>
       <Route path="/aboutMyStudies" element={<MyStudies />}></Route> 
       <Route path="/articlesList" element={<ArticlesList/>}></Route> 
       <Route path="/project5" element={<Header scrollToBlogArticle5={true} />} />
