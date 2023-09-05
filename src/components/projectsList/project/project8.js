@@ -1,5 +1,5 @@
 import React from "react";
-import Imagen from "../../../assests/images/13.png";
+import Imagen from "../../../assests/images/14.png";
 import { Link } from "react-router-dom";
 import {
   AiOutlineArrowRight,
@@ -8,7 +8,7 @@ import {
   AiOutlineFile
 } from "react-icons/ai";
 
-function Article6() {
+function Article8() {
   return (
     <div className="card">
       <img
@@ -16,23 +16,16 @@ function Article6() {
         src={Imagen}
         alt="Rock, Paper and scissors"
       />
-      <h2 className="cardTitle">Nails Project</h2>
+      <h2 className="cardTitle">CHAT APP</h2>
       <span className="cardText">
-      This front project offers the possibility of registration and login, giving the administrator the possibility of incorporating other users with said category. It has the possibility of uploading videos to be able to offer online courses and students can obtain certification
+      Project done as a team within the NO COUNTRY community. This is a chat application where the user can interact with other people 
       </span>
       <div className="cardContentLink">
-        <Link className="cardLink" to="/ProjectDescription7">
+        <Link className="cardLink" to="/ProjectDescription8">
           <AiOutlineArrowRight></AiOutlineArrowRight> A litle more about this
           project?
         </Link>
-        <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/schoolproject">
-          <AiFillGithub></AiFillGithub> GIT HUB CODE FRONT
-        </Link>
-   
-        <Link className="cardLink" to="https://github.com/DiegoDimitroffPetcoff/backSchoolNeals">
-          <AiFillGithub></AiFillGithub> GIT HUB CODE BACK
-        </Link>
-        <Link className="cardLink" to="https://schoolproject-nine.vercel.app/">
+        <Link className="cardLink" to="https://c13-13-n-node-react-n72y.vercel.app/">
           <AiOutlineDeploymentUnit></AiOutlineDeploymentUnit> DEPLOYED CODE
         </Link>
       </div>
@@ -40,4 +33,4 @@ function Article6() {
   );
 }
 
-export default Article6;
+export default Article8;

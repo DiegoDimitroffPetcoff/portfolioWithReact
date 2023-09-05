@@ -16,7 +16,7 @@ function ProjectDescription6() {
       <Nav></Nav>
       <Welcome></Welcome>
       <div className="projectDescriptionContainer">
-        <h2 className="projectDescriptionTitle">Nails Project</h2>
+        <h2 className="projectDescriptionTitle">CHAT APP -"Tell Me"</h2>
         <img
           className="imagenProjectDescription"
           src={Imagen}
