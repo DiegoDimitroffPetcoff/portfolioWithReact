@@ -13,6 +13,7 @@ import BlogArticle2 from "../blogArticles.js/blogArticle2";
 import BlogArticle3 from "../blogArticles.js/blogArticle3";
 import BlogArticle4 from "../blogArticles.js/blogArticle4";
 import BlogArticle5 from "../blogArticles.js/blogArticle5";
+import BlogArticle6 from "../blogArticles.js/blogArticle6";
 
 import "./welcome.css";
 function BlogsList({ scrollToBlogArticle5 }) {
@@ -29,11 +30,12 @@ function BlogsList({ scrollToBlogArticle5 }) {
   }, [scrollToBlogArticle5]);
 
   const blogArticles = [
-    <BlogArticle5 key="article5" />,
-    <BlogArticle4 key="article4" />,
-    <BlogArticle1 key="article1" />,
-    <BlogArticle2 key="article2" />,
-    <BlogArticle3 key="article3" />,
+    <BlogArticle6/>,
+    <BlogArticle5/>,
+    <BlogArticle4/>,
+    <BlogArticle1/>,
+    <BlogArticle2/>,
+    <BlogArticle3/>,
   ];
 
 
@@ -47,8 +49,8 @@ function BlogsList({ scrollToBlogArticle5 }) {
         is why I have created this Blog where I will gradually show the projects
         I am working on, the ideas that arise and much more
       </div>
-      {blogArticles.map((article) => (
-        <div key={article.key}>{article}</div>
+      {blogArticles.map((article, index) => (
+        <div key={index}>{article}</div>
       ))}
     </div>
   );

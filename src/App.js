@@ -21,26 +21,18 @@ import MyStudies from "./components/welcome/myStudies.js"
 import ArticlesList from "./components/articles/articlesList.js";
 
 function App() {
+  const allProjectsDescriptions = [ProjectDescription1, ProjectDescription2, ProjectDescription3, ProjectDescription4, ProjectDescription5, ProjectDescription6, ProjectDescription7, ProjectDescription8]
   return (
     <Routes>
-      <Route path="/" element={<Header />}></Route> 
+      <Route path="/" element={<Header />}></Route>
       <Route path="/aboutme" element={<Aboutme />}></Route>
       <Route path="/projectlist" element={<ProjectsList />}></Route>
-   
-      <Route path="/projectDescription1" element={<ProjectDescription1 />}></Route> 
-      <Route path="/projectDescription2" element={<ProjectDescription2 />}></Route>    
-      <Route path="/projectDescription3" element={<ProjectDescription3 />}></Route> 
-      <Route path="/projectDescription4" element={<ProjectDescription4 />}></Route>     
-      <Route path="/projectDescription5" element={<ProjectDescription5 />}></Route>   
-      <Route path="/projectDescription6" element={<ProjectDescription6 />}></Route>
-      <Route path="/projectDescription7" element={<ProjectDescription7 />}></Route>
-      <Route path="/projectDescription8" element={<ProjectDescription8 />}></Route>
-      <Route path="/aboutMyStudies" element={<MyStudies />}></Route> 
-      <Route path="/articlesList" element={<ArticlesList/>}></Route> 
+      {allProjectsDescriptions.map((Project, index) => (
+        <Route key={index} path={`/projectDescription${index + 1}`} element={<Project />}></Route>
+      ))}
+      <Route path="/aboutMyStudies" element={<MyStudies />}></Route>
+      <Route path="/articlesList" element={<ArticlesList />}></Route>
       <Route path="/project5" element={<Header scrollToBlogArticle5={true} />} />
-
-      
-   
     </Routes>
   );
 }
