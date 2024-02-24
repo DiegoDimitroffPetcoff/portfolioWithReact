@@ -6,7 +6,7 @@ import "./profile.css";
 import "./myExperience.css";
 import "./blog.css";
 
-import { Link, useLocation } from "react-router-dom";
+
 
 import BlogArticle1 from "../blogArticles.js/blogArticle1";
 import BlogArticle2 from "../blogArticles.js/blogArticle2";
@@ -15,29 +15,43 @@ import BlogArticle4 from "../blogArticles.js/blogArticle4";
 import BlogArticle5 from "../blogArticles.js/blogArticle5";
 import BlogArticle6 from "../blogArticles.js/blogArticle6";
 
-import "./welcome.css";
-function BlogsList({ scrollToBlogArticle5 }) {
-
-  const blogArticle5Ref = useRef(null);
-
-  useEffect(() => {
-    if (scrollToBlogArticle5 && blogArticle5Ref.current) {
-      window.scrollTo({
-        top: blogArticle5Ref.current.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  }, [scrollToBlogArticle5]);
-
-  const blogArticles = [
-    <BlogArticle6/>,
-    <BlogArticle5/>,
-    <BlogArticle4/>,
-    <BlogArticle1/>,
-    <BlogArticle2/>,
-    <BlogArticle3/>,
+function BlogsList() {
+  const articlesRefs = [
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
+    useRef(null),
   ];
 
+  useEffect(() => {
+    const options = {
+      root: null,
+      rootMargin: "0px",
+      threshold: 0.5, // Define el umbral de visibilidad del elemento
+    };
+
+    const handleIntersect = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("visible"); // Agrega la clase "visible" cuando el elemento está visible
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(handleIntersect, options);
+
+    articlesRefs.forEach((ref) => {
+      if (ref.current) {
+        observer.observe(ref.current);
+      }
+    });
+
+    return () => {
+      observer.disconnect();
+    };
+  }, [articlesRefs]);
 
   return (
     <div className="conteinerBlogList">
@@ -49,9 +63,14 @@ function BlogsList({ scrollToBlogArticle5 }) {
         is why I have created this Blog where I will gradually show the projects
         I am working on, the ideas that arise and much more
       </div>
-      {blogArticles.map((article, index) => (
-        <div key={index}>{article}</div>
-      ))}
+      <div className="blog-articles">
+        <BlogArticle6 ref={articlesRefs[0]} />
+        <BlogArticle5 ref={articlesRefs[1]} />
+        <BlogArticle4 ref={articlesRefs[2]} />
+        <BlogArticle1 ref={articlesRefs[3]} />
+        <BlogArticle2 ref={articlesRefs[4]} />
+        <BlogArticle3 ref={articlesRefs[5]} />
+      </div>
     </div>
   );
 }

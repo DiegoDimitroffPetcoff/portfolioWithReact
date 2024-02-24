@@ -14,6 +14,7 @@
 
 #headerMenu {
   color: #fff;
+  position: sticky;
   display: flex;
   align-items: center;
   justify-content: space-between;

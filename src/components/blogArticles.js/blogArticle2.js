@@ -16,10 +16,10 @@ function BlogArticle2() {
          className="linkedinPostBlog"
           src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7008750196180316160"
           border-radius="0px"
-          allowfullscreen=""
+          allowFullScreen=""
           title="Embedded post"
           height="500"
-          frameborder="0"
+          frameBorder="0"
         ></iframe>
       </div>
     </div>

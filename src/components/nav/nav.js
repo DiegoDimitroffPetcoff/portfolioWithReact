@@ -14,7 +14,7 @@ function Nav() {
   };
 
   return (
-    <div id="headerMenu">
+    <div data-aos="flip-down" id="headerMenu">
       <button className="headerbuttom" onClick={toggleMenu}>
         <span className="menuLetters">MENU</span>{" "}
         <span className="navBurguerIcon">

@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import BlogArticle5 from "../blogArticles.js/blogArticle5";
+
 
 import {
   AiFillGithub,
@@ -12,19 +12,15 @@ import "./welcome.css";
 
 function Welcome() {
 
-
-
-
   return (
     <div id="welcome">
-
-      <h3>Welcome to my portfolio!</h3>
-      <h1>DIEGO DIMITROFF PETCOFF</h1>
-      <a href="./CV.pdf" target="_blank" download="CV-DiegoDimitroffPetcoff">
+      <h3 data-aos="flip-down">Welcome to my portfolio!</h3>
+      <h1 data-aos="flip-down">DIEGO DIMITROFF PETCOFF</h1>
+      <a data-aos="zoom-in" href="./CV.pdf" target="_blank" download="CV-DiegoDimitroffPetcoff">
         Check my CV
       </a>
 
-      <div id="iconsWelcome">
+      <div data-aos="flip-down" id="iconsWelcome">
         <Link
           to="https://github.com/DiegoDimitroffPetcoff"
           target="_blank"
@@ -40,7 +36,7 @@ function Welcome() {
           <AiOutlineLinkedin></AiOutlineLinkedin>
         </Link>
 
-        <a href="tel:+351935828293">
+        <a href="tel:+46769681000">
           <AiFillPhone></AiFillPhone>
         </a>
 

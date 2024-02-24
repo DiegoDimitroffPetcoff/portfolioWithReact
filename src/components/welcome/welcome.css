@@ -4,8 +4,7 @@
   color: white;
   margin: 5% 10%;
   width: auto;
-  animation: appear 1s ease-in-out;
-  animation-delay: 500ms;
+
 }
 
 @keyframes appear {

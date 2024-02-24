@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./profile.css";
 import "./myExperience.css";
@@ -7,15 +7,22 @@ import Imagen from "../../assests/images/3.png";
 
 import "./welcome.css";
 import { Link } from "react-router-dom";
+
 function MyExperience() {
+
   return (
     <div className="profileContent">
       <img
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
         className="imagenMyExperience"
         src={Imagen}
         alt="Diego Dimitroff Petocff Experience"
       />
-      <div className="textProfileContentRigth">
+      <div data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine" className="textProfileContentRigth">
         <h1> My Experience</h1>
         <ul>
           <li> <div>
@@ -27,8 +34,8 @@ function MyExperience() {
               target="_blank"
               rel="noopener noreferrer"
             >
-            
-               CERTIFICATE 
+
+              CERTIFICATE
             </Link>
             <Link
               to="https://www.nocountry.tech/"
@@ -37,7 +44,7 @@ function MyExperience() {
               rel="noopener noreferrer"
             >
               {" "}
-               Company Website {" "}
+              Company Website {" "}
             </Link>
           </li>
           <li>T.L. | Internship NO COUNTRY | Sep 2022 - Oct 2022·</li>
@@ -52,7 +59,7 @@ function MyExperience() {
               rel="noopener noreferrer"
             >
               {" "}
-               Company Website {" "}
+              Company Website {" "}
             </Link>
           </li>
         </ul>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 
 import Header from "./components/header/header.js";
@@ -19,8 +19,15 @@ import ProjectDescription8 from "./components/projectsList/projectDescriptions.j
 
 import MyStudies from "./components/welcome/myStudies.js"
 import ArticlesList from "./components/articles/articlesList.js";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({ delay: 2});
+  }, [])
+  
   const allProjectsDescriptions = [ProjectDescription1, ProjectDescription2, ProjectDescription3, ProjectDescription4, ProjectDescription5, ProjectDescription6, ProjectDescription7, ProjectDescription8]
   return (
     <Routes>
@@ -32,7 +39,7 @@ function App() {
       ))}
       <Route path="/aboutMyStudies" element={<MyStudies />}></Route>
       <Route path="/articlesList" element={<ArticlesList />}></Route>
-      <Route path="/project5" element={<Header scrollToBlogArticle5={true} />} />
+      <Route path="/project5" element={<Header/>} />
     </Routes>
   );
 }

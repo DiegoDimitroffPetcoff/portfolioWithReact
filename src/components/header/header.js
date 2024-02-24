@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./header.css";
 import Welcome from ".././welcome/welcome";
@@ -9,15 +9,19 @@ import BlogsList from "../welcome/blogsList";
 import Nav from "../nav/nav.js";
 import Profile from "../welcome/profile";
 
-export function Header({ scrollToBlogArticle5 }) {
+
+export function Header() {
+
+
+
   return (
-    <div>
-      <Nav></Nav>
-      <Welcome ></Welcome>
-      <Profile></Profile>
-      <MyExperience></MyExperience>
-      <MyLenguajesSkills></MyLenguajesSkills>
-      <BlogsList scrollToBlogArticle5={scrollToBlogArticle5}></BlogsList>
+    <div >
+      <Nav ></Nav>
+      <Welcome  ></Welcome>
+      <Profile ></Profile>
+      <MyExperience ></MyExperience>
+      <MyLenguajesSkills ></MyLenguajesSkills>
+      <BlogsList ></BlogsList>
     </div>
   );
 }
