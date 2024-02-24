@@ -1,12 +1,8 @@
 import React, { useEffect, useRef } from "react";
 
-
-
 import "./profile.css";
 import "./myExperience.css";
 import "./blog.css";
-
-
 
 import BlogArticle1 from "../blogArticles.js/blogArticle1";
 import BlogArticle2 from "../blogArticles.js/blogArticle2";
@@ -16,31 +12,38 @@ import BlogArticle5 from "../blogArticles.js/blogArticle5";
 import BlogArticle6 from "../blogArticles.js/blogArticle6";
 
 function BlogsList() {
-  const articlesRefs = [
-    useRef(null),
-    useRef(null),
-    useRef(null),
-    useRef(null),
-    useRef(null),
-    useRef(null),
-  ];
+  const article1Ref = useRef(null);
+  const article2Ref = useRef(null);
+  const article3Ref = useRef(null);
+  const article4Ref = useRef(null);
+  const article5Ref = useRef(null);
+  const article6Ref = useRef(null);
 
   useEffect(() => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5, // Define el umbral de visibilidad del elemento
+      threshold: 0.5,
     };
 
     const handleIntersect = (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add("visible"); // Agrega la clase "visible" cuando el elemento está visible
+          entry.target.classList.add("visible");
         }
       });
     };
 
     const observer = new IntersectionObserver(handleIntersect, options);
+
+    const articlesRefs = [
+      article1Ref,
+      article2Ref,
+      article3Ref,
+      article4Ref,
+      article5Ref,
+      article6Ref,
+    ];
 
     articlesRefs.forEach((ref) => {
       if (ref.current) {
@@ -51,7 +54,7 @@ function BlogsList() {
     return () => {
       observer.disconnect();
     };
-  }, [articlesRefs]);
+  }, [article1Ref, article2Ref, article3Ref, article4Ref, article5Ref, article6Ref]);
 
   return (
     <div className="conteinerBlogList">
@@ -64,12 +67,12 @@ function BlogsList() {
         I am working on, the ideas that arise and much more
       </div>
       <div className="blog-articles">
-        <BlogArticle6 ref={articlesRefs[0]} />
-        <BlogArticle5 ref={articlesRefs[1]} />
-        <BlogArticle4 ref={articlesRefs[2]} />
-        <BlogArticle1 ref={articlesRefs[3]} />
-        <BlogArticle2 ref={articlesRefs[4]} />
-        <BlogArticle3 ref={articlesRefs[5]} />
+        <BlogArticle6 ref={article6Ref} />
+        <BlogArticle5 ref={article5Ref} />
+        <BlogArticle4 ref={article4Ref} />
+        <BlogArticle1 ref={article1Ref} />
+        <BlogArticle2 ref={article2Ref} />
+        <BlogArticle3 ref={article3Ref} />
       </div>
     </div>
   );
