@@ -1,12 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useEffect, lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import Header from "./components/header/header.js";
-
-
 import Aboutme from "./components/aboutme/aboutme.js";
 import ProjectsList from "./components/projectsList/projectsList.js";
-
 
 import ProjectDescription1 from "./components/projectsList/projectDescriptions.js/project1Description.js";
 import ProjectDescription2 from "./components/projectsList/projectDescriptions.js/project2Description.js";
@@ -19,8 +18,7 @@ import ProjectDescription8 from "./components/projectsList/projectDescriptions.j
 
 import MyStudies from "./components/welcome/myStudies.js"
 import ArticlesList from "./components/articles/articlesList.js";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 
 
 function App() {
