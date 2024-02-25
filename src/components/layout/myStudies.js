@@ -6,7 +6,7 @@ import "./myExperience.css";
 import "./welcome.css";
 
 import Imagen from "../../assests/images/4.png";
-import Welcome from "./welcome";
+import Welcome from "./layout";
 import Nav from "../nav/nav";
 
 function MyStudies() {

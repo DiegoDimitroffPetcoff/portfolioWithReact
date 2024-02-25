@@ -14,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
 
   zoom: reset;
   touch-action: manipulation;

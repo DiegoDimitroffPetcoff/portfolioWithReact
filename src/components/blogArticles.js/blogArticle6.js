@@ -1,5 +1,5 @@
 import React from "react";
-import "../welcome/blog.css";
+import "../layout/blog.css";
 import { Link } from "react-router-dom";
 import {  AiFillGithub } from "react-icons/ai";
 import Imagen from "../../assests/images/15.png";

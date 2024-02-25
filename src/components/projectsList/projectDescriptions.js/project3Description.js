@@ -8,14 +8,16 @@ import {
   AiFillGithub,
   AiOutlineDeploymentUnit,
 } from "react-icons/ai";
-import Welcome from "../../welcome/welcome";
+
+import Layout from "../../layout/layout";
+
 
 import "./projectDescription.css";
 function ProjectDescription3() {
   return (
     <div>
       <Nav></Nav>
-      <Welcome></Welcome>
+      <Layout/>
       <div className="projectDescriptionContainer">
         <h2 className="projectDescriptionTitle">E-COMMERCE PROJECT</h2>
         <img

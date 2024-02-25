@@ -11,7 +11,7 @@ import ProjectDescription5 from "../components/projectsList/projectDescriptions.
 import ProjectDescription6 from "../components/projectsList/projectDescriptions.js/project6Description.js";
 import ProjectDescription7 from "../components/projectsList/projectDescriptions.js/project7Description.js";
 import ProjectDescription8 from "../components/projectsList/projectDescriptions.js/project8Description.js";
-import MyStudies from "../components/welcome/myStudies.js";
+import MyStudies from "../components/layout/myStudies.js";
 import ArticlesList from "../components/articles/articlesList";
 
 

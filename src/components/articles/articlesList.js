@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 import Nav from "../nav/nav";
-import Welcome from "../welcome/welcome";
+
+import Layout from "../layout/layout";
 
 import "./articles.css";
 import Article1 from "./article/article1";
@@ -11,7 +12,7 @@ function ArticlesList() {
   return (
     <div className="flex">
       <Nav></Nav>
-      <Welcome></Welcome>
+      <Layout />
       <span className="contentArticles">
         <h1 className="titlePage">Articles Writes By me</h1>
         <h2 className="subtitlePage">

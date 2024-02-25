@@ -1,25 +1,25 @@
 import React from "react";
 
 import "./header.css";
-import Welcome from ".././welcome/welcome";
-import MyExperience from "../welcome/myExperience";
-import MyLenguajesSkills from "../welcome/myLenguajesSkills";
-import BlogsList from "../welcome/blogsList";
+
+import MyExperience from "../layout/myExperience.js";
+import MyLenguajesSkills from "../layout/myLenguajesSkills.js";
+import BlogsList from "../layout/blogsList.js";
 
 import NavBarComponent from "../nav/nav.js";
-import Profile from "../welcome/profile";
-
+import Profile from "../layout/profile.js";
+import Layout from "../layout/layout.js";
 
 export function Header() {
   return (
-    <div >
+    <>
       <NavBarComponent />
-      {/*       <Welcome  ></Welcome>
-      <Profile ></Profile>
-      <MyExperience ></MyExperience>
-      <MyLenguajesSkills ></MyLenguajesSkills>
-      <BlogsList ></BlogsList> */}
-    </div>
+    {/*   <Layout/> */}
+      <Profile></Profile>
+      {/*       <MyExperience></MyExperience>
+      <MyLenguajesSkills></MyLenguajesSkills>
+      <BlogsList></BlogsList> */}
+    </>
   );
 }
 

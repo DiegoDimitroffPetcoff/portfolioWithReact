@@ -9,14 +9,15 @@ import {
   AiOutlineDeploymentUnit,
   AiOutlineVideoCamera,
 } from "react-icons/ai";
-import Welcome from "../../welcome/welcome";
+
+import Layout from "../../layout/layout";
 
 import "./projectDescription.css";
 function ProjectDescription5() {
   return (
     <div>
       <Nav></Nav>
-      <Welcome></Welcome>
+      <Layout />
       <div className="projectDescriptionContainer">
         <h2 className="projectDescriptionTitle">School API</h2>
         <img
@@ -33,26 +34,25 @@ function ProjectDescription5() {
           ability to configure various functionalities. For example, they can
           showcase different projects through images and offer courses where
           users with "alumn" status can access videos and complete the entire
-          course to acquire knowledge about nail painting techniques. 
-         <div>The architecture</div>
-          The architecture of this project follows a modular and
-          scalable approach. It is designed to separate concerns and promote
-          code reusability. Here's an overview of the architectural components:
-          <div>MODEL:</div> The model represents the data structure of the application. It
-          defines the schema and interacts with the database. In this project,
-          MongoDB is used as the database, and Mongoose is utilized as an Object
-          Data Modeling (ODM) library to define and work with the data models.
-          Controller: The controller handles the logic and business operations
-          of the application. It receives requests from the routes and interacts
-          with the necessary services to process the data. It is responsible for
-          handling input validation, calling the appropriate services, and
-          returning the response to the client. 
-          <div>SERVICES:</div> The service layer
-          contains the core business logic of the application. It encapsulates
-          reusable functions and performs complex operations. Services interact
-          with the models and other external services as needed. They handle
-          tasks such as data manipulation, data retrieval, and external API
-          integration. 
+          course to acquire knowledge about nail painting techniques.
+          <div>The architecture</div>
+          The architecture of this project follows a modular and scalable
+          approach. It is designed to separate concerns and promote code
+          reusability. Here's an overview of the architectural components:
+          <div>MODEL:</div> The model represents the data structure of the
+          application. It defines the schema and interacts with the database. In
+          this project, MongoDB is used as the database, and Mongoose is
+          utilized as an Object Data Modeling (ODM) library to define and work
+          with the data models. Controller: The controller handles the logic and
+          business operations of the application. It receives requests from the
+          routes and interacts with the necessary services to process the data.
+          It is responsible for handling input validation, calling the
+          appropriate services, and returning the response to the client.
+          <div>SERVICES:</div> The service layer contains the core business
+          logic of the application. It encapsulates reusable functions and
+          performs complex operations. Services interact with the models and
+          other external services as needed. They handle tasks such as data
+          manipulation, data retrieval, and external API integration.
           <div>ROUTES:</div> The routes define the endpoints and HTTP methods
           that the application exposes. They receive incoming requests, validate
           input, and route the requests to the corresponding controller methods.

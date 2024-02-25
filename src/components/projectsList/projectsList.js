@@ -11,7 +11,7 @@ import Article5 from "./project/project5";
 import Article6 from "./project/project6";
 import Article7 from "./project/project7";
 import Article8 from "./project/project8";
-import Welcome from "../welcome/welcome";
+import Layout from "../layout/layout";
 
 function ProjectsList() {
   const articles = [
@@ -28,7 +28,7 @@ function ProjectsList() {
   return (
     <div >
    <Nav></Nav>
-   <Welcome></Welcome>
+   <Layout/>
       <h1 className="titlePage">Projects</h1>
       <h2 className="subtitlePage">In this section I will be posting all my projects, from the newest to the oldest.</h2>
       <div className="projectsContent">

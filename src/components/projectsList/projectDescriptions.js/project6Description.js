@@ -7,14 +7,15 @@ import {
 
   AiOutlineFile
 } from "react-icons/ai";
-import Welcome from "../../welcome/welcome";
+import Layout from "../../layout/layout";
+
 
 import "./projectDescription.css";
 function ProjectDescription6() {
   return (
     <div>
       <Nav></Nav>
-      <Welcome></Welcome>
+      <Layout></Layout>
       <div className="projectDescriptionContainer">
         <h2 className="projectDescriptionTitle">Zuca Arq Project</h2>
         <img

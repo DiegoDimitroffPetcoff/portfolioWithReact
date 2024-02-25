@@ -1,5 +1,5 @@
 import React from "react";
-import "../welcome/blog.css";
+import "../layout/blog.css";
 import { Link } from "react-router-dom";
 import { AiOutlineDeploymentUnit } from "react-icons/ai";
 function BlogArticle3() {

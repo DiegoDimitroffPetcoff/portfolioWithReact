@@ -2,7 +2,7 @@ import React from "react";
 import Imagen from "../../assests/images/Diego.jpg";
 import Nav from "../nav/nav";
 import "./aboutme.css";
-import Welcome from "../welcome/welcome";
+import Welcome from "../layout/layout";
 function Aboutme() {
   return (
     <div>
