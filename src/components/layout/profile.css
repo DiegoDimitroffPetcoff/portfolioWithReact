@@ -1,11 +1,11 @@
 .profileContent {
   display: flex;
   flex-direction: row;
-
-  padding: 70px 0;
+  justify-content:start;
+  padding: 2% 0;
   font-family: revert;
   color: whitesmoke;
-  margin: 0px 220px;
+  margin: 0px 10%;
 }
 
 .textProfileContent {
@@ -25,6 +25,7 @@
 }
 
 .imagenProfile {
+  height: 300px;
   border-radius: 50%;
 }
 
@@ -60,6 +61,7 @@
   }
 
   .imagenProfile {
+    height: auto;
 width: 200px;
 align-self: flex-end;
   }

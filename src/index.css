@@ -1,7 +1,7 @@
 html {
   height: auto;
   background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
-
+  height: 100vh;
 
   touch-action: manipulation;
   width: device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;
@@ -18,7 +18,7 @@ body {
 
   zoom: reset;
   touch-action: manipulation;
-  height: 100%;
+  height: 100vh;
   width: device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;
 }
 
@@ -51,7 +51,7 @@ p {
   html{
     background-image: url("./assests/images/background9.png");
     background-repeat: repeat-y;
-    background-size: 100%;
+    background-size:  100vh;;
   }
   .titlePage {
     margin: 5%;

@@ -7,7 +7,7 @@ function Aboutme() {
   return (
     <div>
       <Nav></Nav>
-      <Welcome></Welcome>
+ 
       <div className="AboutmeContent">
         <h1 className="AboutMeTitle">About Me</h1>
 

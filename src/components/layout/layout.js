@@ -1,27 +1,20 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
 
-import {
-  AiFillGithub,
-  AiOutlineLinkedin,
-  AiOutlineMail,
-  AiFillPhone,
-} from "react-icons/ai";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import "./profile.css";
+
 import "./welcome.css";
 
 function Layout() {
+  useEffect(() => {
+    AOS.init({ duration: 400 });
+  }, []);
   return (
     <div id="welcome">
       <h3 data-aos="flip-down">Welcome to my portfolio!</h3>
       <h1 data-aos="flip-down">DIEGO DIMITROFF PETCOFF</h1>
-      <a
-        data-aos="zoom-in"
-        href="./CV.pdf"
-        target="_blank"
-        download="CV-DiegoDimitroffPetcoff"
-      >
-        CV
-      </a>
     </div>
   );
 }
