@@ -1,0 +1,82 @@
+/* LAYOUT */
+
+.contentLayout {
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sectionLayout {
+  display: flex;
+  justify-content: space-between;
+  margin: 4px;
+  min-height: 80vh;
+  padding: 18% 8%;
+}
+.articleLayoutLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: white;
+}
+.lineContent {
+  border-left: solid white 3px;
+  margin: 2px;
+  width: 90%;
+}
+.articleLayoutRight {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  margin: 4px;
+}
+
+.buttonContent {
+  background: transparent;
+  border: #0dcaf085 solid;
+  border-radius: 20px;
+  width: 50%;
+  height: 40px;
+  color: white;
+}
+
+.imgProfile {
+  position: fixed;
+  bottom: 0;
+  width: 25%;
+  right: 5%;
+  filter: drop-shadow(0px 0px 100px rgba(40, 40, 155, 0.41));
+}
+
+/* NAV */
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    justify-content: space-between;
+    margin: 5%;
+    width: 90%;
+  
+}
+.navLinks{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+li{
+
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.navLogo{
+    width: 20%;
+}

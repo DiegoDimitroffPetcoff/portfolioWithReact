@@ -2,62 +2,15 @@ html {
   height: auto;
   background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
   height: 100vh;
-
   touch-action: manipulation;
   width: device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;
 }
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+#root {
   background: linear-gradient(90deg, #2e3141 0%, #4c5c96 100%);
-
-  zoom: reset;
-  touch-action: manipulation;
   height: 100vh;
-  width: device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-p {
-  color: whitesmoke;
-  margin: 70px 220px;
-}
-
-.titlePage {
-  color: whitesmoke;
-  margin: 10px 220px;
-}
-
-.subtitlePage {
-  color: whitesmoke;
-  margin: 10px 220px;
-  border-bottom: 3px solid #ffffff66;
-
-  font-size: 20px;
-  text-decoration: none;
-  font-weight: normal;
-}
-
-@media (max-width: 967px) {
-  html{
-    background-image: url("./assests/images/background9.png");
-    background-repeat: repeat-y;
-    background-size:  100vh;;
-  }
-  .titlePage {
-    margin: 5%;
-  }
-  .subtitlePage {
-    margin: 5%;
-    text-decoration: ;
-  }
+body{
+  width: 100%;
 }
