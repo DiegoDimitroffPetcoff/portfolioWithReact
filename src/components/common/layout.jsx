@@ -12,7 +12,6 @@ const Layout = () => {
         <section className="articleLayoutLeft">
           <div className="lineContent">
             <h1>Diego Dimitroff Petcoff</h1>
-            <h2>Projects</h2>
           </div>
           <button className="buttonContent">Contact</button>
         </section>
