@@ -1,6 +1,7 @@
 import NavBar from "./navBar";
 import "../../global.css";
 import DiegoProfile from "../../assests/images/diego.png";
+import { Outlet } from "react-router-dom";
 
 const Layout = () => {
   return (
@@ -10,10 +11,7 @@ const Layout = () => {
       </nav>
       <header className="sectionLayout">
         <section className="articleLayoutLeft">
-          <div className="lineContent">
-            <h1>Diego Dimitroff Petcoff</h1>
-          </div>
-          <button className="buttonContent">Contact</button>
+          <Outlet />
         </section>
         <section className="articleLayoutRight">
           <img

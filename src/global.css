@@ -103,7 +103,7 @@
   transition: 1s;
 }
 .navLogo {
-  width: 5%;
+  width: 50%;
 }
 /* NAV - responsive */
 @media (max-width: 767px) {

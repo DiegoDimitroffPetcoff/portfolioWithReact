@@ -6,27 +6,65 @@ const NavBar = () => {
   return (
     <nav className="nav">
       <ul className={`ulLinks${navBarVisible ? "Visible" : ""}`}>
-        <Link className="linkNavBar" to="/projects">
+        <Link
+          className="linkNavBar"
+          to="/"
+          onClick={() => {
+            setNavBarVisible(false);
+          }}
+        >
+          Home
+        </Link>
+        <Link
+          className="linkNavBar"
+          to="/projects"
+          onClick={() => {
+            setNavBarVisible(false);
+          }}
+        >
           Projects
         </Link>
-        <Link className="linkNavBar" to="/projects">
+        <Link
+          className="linkNavBar"
+          to="/projects"
+          onClick={() => {
+            setNavBarVisible(false);
+          }}
+        >
           Blog
         </Link>
-        <Link className="linkNavBar" to="/projects">
+        <Link
+          className="linkNavBar"
+          to="/projects"
+          onClick={() => {
+            setNavBarVisible(false);
+          }}
+        >
           Articles
         </Link>
-        <Link className="linkNavBar" to="/projects">
+        <Link
+          className="linkNavBar"
+          to="/projects"
+          onClick={() => {
+            setNavBarVisible(false);
+          }}
+        >
           Who I am?
         </Link>
       </ul>
-      <img
-        src={LogoTransparent}
-        alt="Logo Diego Dimitrogg"
-        className="navLogo"
-        onClick={() => {
-          setNavBarVisible(!navBarVisible);
-        }}
-      />
+      <Link
+        className="linkNavBar"
+        style={{ display: "flex", justifyContent: "center" }}
+      >
+        <img
+          src={LogoTransparent}
+          alt="Logo Diego Dimitrogg"
+          className="navLogo"
+          onClick={() => {
+            setNavBarVisible(!navBarVisible);
+          }}
+        />
+      </Link>
     </nav>
   );
 };

@@ -1,0 +1,23 @@
+[
+  {
+    "title": "E-Commerce",
+    "descriction": "This is the project I am currently working on. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
+    "Img": "../../assests/images/10.png",
+    "GitHubLink": "https://github.com/DiegoDimitroffPetcoff/EcommerceProject",
+    "DeployLink": ""
+  },
+  {
+    "title": "E-Commerce",
+    "descriction": "This is the project I am currently working on. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
+    "Img": "../../assests/images/10.png",
+    "GitHubLink": "https://github.com/DiegoDimitroffPetcoff/EcommerceProject",
+    "DeployLink": ""
+  },
+  {
+    "title": "E-Commerce",
+    "descriction": "This is the project I am currently working on. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
+    "Img": "../../assests/images/10.png",
+    "GitHubLink": "https://github.com/DiegoDimitroffPetcoff/EcommerceProject",
+    "DeployLink": ""
+  }
+]
