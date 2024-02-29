@@ -3,6 +3,7 @@ import React, { lazy, Suspense } from "react";
 import { Routes, Route } from "react-router-dom";
 import LogoTransparent from "../assests/images/logo-transparent-white.png";
 import Profile from "../components/common/profile";
+import WorkingOnPage from "../components/common/workingOnPage";
 
 const Layout = lazy(() => import("../components/common/layout"));
 const Projects = lazy(() => import("../components/projects/projects"));
@@ -30,7 +31,10 @@ const RoutesIndex = () => {
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Profile />}></Route>
           <Route path="projects" element={<Projects />}></Route>
+        <Route path="workingOnPage" element={<WorkingOnPage />}></Route>
+
         </Route>
+
         {/*         <Route path="/aboutme" element={<Aboutme />}></Route>
         <Route path="/projectlist" element={<ProjectsList />}></Route>
         {allProjectsDescriptions.map((Project, index) => (

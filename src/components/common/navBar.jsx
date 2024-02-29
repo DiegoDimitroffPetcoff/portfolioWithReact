@@ -26,7 +26,7 @@ const NavBar = () => {
         </Link>
         <Link
           className="linkNavBar"
-          to="/projects"
+          to="/WorkingOnPage"
           onClick={() => {
             setNavBarVisible(false);
           }}
@@ -35,7 +35,7 @@ const NavBar = () => {
         </Link>
         <Link
           className="linkNavBar"
-          to="/projects"
+          to="/WorkingOnPage"
           onClick={() => {
             setNavBarVisible(false);
           }}
@@ -44,7 +44,7 @@ const NavBar = () => {
         </Link>
         <Link
           className="linkNavBar"
-          to="/projects"
+          to="/WorkingOnPage"
           onClick={() => {
             setNavBarVisible(false);
           }}
