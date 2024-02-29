@@ -137,6 +137,13 @@
   padding: 18% 8%;
   margin: 4px;
 }
+.linkProfile{
+  margin: 5px;
+  color: white;
+}
+.linkProfile:hover{
+  color: whitesmoke;
+}
 
 /* PROJECTS */
 .gralContent {
