@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Zuca Arq Project - Full Stack development (stack MERN + Claudinary)",
+    "description": "New project for ZUCA brand in Argentina. Full Stack development with Redux, MongoDB, cloudinary. Backend deployed on Render.com, Frontend on Vercel.",
+    "Img": "11.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/ZucaBranch",
+    "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/zucaArq",
+    "DeployLink": "https://zucaarct.vercel.app/"
+  },
+  {
+    "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
+    "description": "Application for building renovations. Frontend in React, utilizes OneDrive as database. Works offline as PWA. Project currently in development.",
+    "Img": "15.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/INDIRE-PWA",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "Migrating from a static project to a scalable one in React",
+    "description": "Article comparing two projects: one in React and one static. Discusses differences in technologies, design, and file structure.",
+    "Img": "10.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://diegodimitroffpetcoff-f5qv9vv5a-diegodimitroffpetcoff.vercel.app/"
+  },
+  {
+    "title": "ITenseno Project",
+    "description": "Recent project aimed at IT students. Backend work showcased with Postman. Videos demonstrate API features.",
+    "Img": "",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "Migration from Heroku app to Railway",
+    "description": "First LinkedIn article detailing migration from Heroku to Railway for hosting.",
+    "Img": "",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "New project in React and new goals achieved!",
+    "description": "Personal growth and achievements shared. React project deployed on Render.com & Railway.app.",
+    "Img": "",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://lnkd.in/dZnf-eZH https://lnkd.in/dvaSNs26"
+  }
+]
+

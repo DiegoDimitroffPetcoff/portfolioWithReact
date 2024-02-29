@@ -1,7 +1,15 @@
 [
   {
+    "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
+    "description": "Application for building renovations. Frontend in React, utilizes OneDrive as database. Works offline as PWA.",
+    "Img": "15.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/INDIRE-PWA",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
     "title": "CHAT APP",
-    "descriction": "Project done as a team within the NO COUNTRY community. This is a chat application where the user can interact with other people.",
+    "description": "Team-built chat app within NO COUNTRY community for user interaction.",
     "Img": "14.png",
     "GitHubLinkFront": "",
     "GitHubLinkBack": "",
@@ -9,7 +17,7 @@
   },
   {
     "title": "Nails Project",
-    "descriction": "This front project offers the possibility of registration and login, giving the administrator the possibility of incorporating other users with said category. It has the possibility of uploading videos to be able to offer online courses and students can obtain certification.",
+    "description": "User registration, online courses, certification. Frontend: React, Backend: Node.js, MongoDB.",
     "Img": "13.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/schoolproject",
     "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/backSchoolNeals",
@@ -17,16 +25,15 @@
   },
   {
     "title": "Zuca Arq Project",
-    "descriction": "This platform is a useful tool for architects and designers that allows them to display and manage their architectural projects efficiently. Below I will briefly describe the structure and key features of my project.",
+    "description": "Efficient platform for architects and designers. Developed with React, Node.js.",
     "Img": "11.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/ZucaBranch",
     "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/zucaArq",
-    "DeployLink": "https://zucaarct.vercel.app/",
-    "LinkedInArticleLink": ""
+    "DeployLink": "https://zucaarct.vercel.app/"
   },
   {
     "title": "School API",
-    "descriction": ", API Res works with MongoDB, Node.js, and Express. The architecture is designed to make scalability in databases easy to achieve. It uses Open Cors and will be used with a React project to demonstrate its usefulness.",
+    "description": "Scalable REST API with MongoDB, Node.js, ready for React projects.",
     "Img": "12.png",
     "GitHubLinkFront": "",
     "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/backSchoolNeals",
@@ -34,7 +41,7 @@
   },
   {
     "title": "API Rest / CRUD",
-    "descriction": "The project demonstrates how to use Express.js and Node.js to create a RESTful API for performing CRUD operations on a MongoDB database. The article explains the various components of the application, including middleware for processing JSON and form data, API routes associated with controllers, controllers handling HTTP requests, services interacting with the database, and the database connection itself. The code provided in the project serves as a practical example for creating a backend application using Node.js, Express.js, and MongoDB..",
+    "description": "Express.js, Node.js, MongoDB CRUD backend.",
     "Img": "8.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/CRUDforStudents",
     "GitHubLinkBack": "",
@@ -42,7 +49,7 @@
   },
   {
     "title": "E-COMMERCE PROJECT",
-    "descriction": "This is my first experience working in a team. This project is an App to manage a gym. Here my participation was within the Backend team and we work with different technologies. On the Backend: Node.js and Express,   and on the Frontend with React js.",
+    "description": "Gym management app. Backend: Node.js, Express, Frontend: React.",
     "Img": "5.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/GYM-administration-APP",
     "GitHubLinkBack": "",
@@ -50,7 +57,7 @@
   },
   {
     "title": "My first React Project",
-    "descriction": "This is my first (and only, at the moment) project made in React. I am currently learning a little about this technology. This site is under construction, but I think you will enjoy its images!",
+    "description": "Under construction. Initial React project.",
     "Img": "7.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/reactProject",
     "GitHubLinkBack": "",
@@ -58,12 +65,10 @@
   },
   {
     "title": "Backend Project",
-    "descriction": "This was one of my first projects. It was the result of a Backend course carried out in Argentina. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
+    "description": "MVC Backend with Express, Node.js, now deployed on Railway.",
     "Img": "2.png",
     "GitHubLinkFront": "",
-    "GitHubLinkBack": "",
-    "DeployLink": ""
+    "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/Desarrollo-Ecommerce",
+    "DeployLink": "https://ecommerce-project-fkfr.vercel.app/"
   }
 ]
-
-
