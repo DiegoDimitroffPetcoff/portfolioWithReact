@@ -10,16 +10,12 @@ const Layout = () => {
         <NavBar />
       </nav>
       <header className="sectionLayout">
-        <section className="articleLayoutLeft">
-          <Outlet />
-        </section>
-        <section className="articleLayoutRight">
-          <img
-            src={DiegoProfile}
-            className="imgProfile"
-            alt="Diego Dimitroff Profile"
-          />
-        </section>
+        <Outlet />
+        <img
+          src={DiegoProfile}
+          className="imgProfile"
+          alt="Diego Dimitroff Profile"
+        />
       </header>
     </div>
   );

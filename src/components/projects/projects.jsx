@@ -2,7 +2,7 @@ import ProjectsList from "./projectsList";
 
 const Projects = () => {
   return (
-    <div style={{padding:"10%"}}>
+    <div className="gralContent">
       {" "}
       <div data-aos="fade-right">
         <h1 className="titlePage">Projects</h1>
@@ -11,7 +11,6 @@ const Projects = () => {
           the oldest.
         </h2>
       </div>
-    
       <ProjectsList />
     </div>
   );

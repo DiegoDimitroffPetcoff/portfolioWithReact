@@ -7,31 +7,15 @@
 .sectionLayout {
   display: flex;
   justify-content: space-between;
-  margin: 4px;
   min-height: 90vh;
-  padding: 18% 8%;
 }
-.articleLayoutLeft {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
-  color: whitesmoke;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-}
+
 .lineContent {
   border-left: solid whitesmoke 3px;
   margin: 2px;
   width: 90%;
 }
-.articleLayoutRight {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: start;
-  margin: 4px;
-}
+
 .buttonContent {
   background: transparent;
   border: #0dcaf085 solid;
@@ -73,6 +57,7 @@
   width: 95%;
   align-items: center;
   cursor: pointer;
+  z-index: 1;
 }
 .ulLinks {
   display: flex;
@@ -138,4 +123,41 @@
     padding-left: 0;
     transition: 1s;
   }
+}
+
+/* PROFILE */
+.contentProfile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 18% 8%;
+  margin: 4px;
+}
+
+/* PROJECTS */
+.gralContent {
+  align-items: start;
+  color: whitesmoke;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 150px 10%;
+}
+
+/* PROJECTSLIST */
+.contentProjectList {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border: solid;
+  max-width: 300px;
+  margin: 3px;
 }

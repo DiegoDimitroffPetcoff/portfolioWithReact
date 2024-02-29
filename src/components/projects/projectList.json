@@ -1,23 +1,69 @@
 [
   {
-    "title": "E-Commerce",
-    "descriction": "This is the project I am currently working on. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
-    "Img": "../../assests/images/10.png",
-    "GitHubLink": "https://github.com/DiegoDimitroffPetcoff/EcommerceProject",
+    "title": "CHAT APP",
+    "descriction": "Project done as a team within the NO COUNTRY community. This is a chat application where the user can interact with other people.",
+    "Img": "14.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://c13-13-n-node-react-n72y.vercel.app/"
+  },
+  {
+    "title": "Nails Project",
+    "descriction": "This front project offers the possibility of registration and login, giving the administrator the possibility of incorporating other users with said category. It has the possibility of uploading videos to be able to offer online courses and students can obtain certification.",
+    "Img": "13.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/schoolproject",
+    "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/backSchoolNeals",
+    "DeployLink": "https://schoolproject-nine.vercel.app/"
+  },
+  {
+    "title": "Zuca Arq Project",
+    "descriction": "This platform is a useful tool for architects and designers that allows them to display and manage their architectural projects efficiently. Below I will briefly describe the structure and key features of my project.",
+    "Img": "11.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/ZucaBranch",
+    "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/zucaArq",
+    "DeployLink": "https://zucaarct.vercel.app/",
+    "LinkedInArticleLink": ""
+  },
+  {
+    "title": "School API",
+    "descriction": ", API Res works with MongoDB, Node.js, and Express. The architecture is designed to make scalability in databases easy to achieve. It uses Open Cors and will be used with a React project to demonstrate its usefulness.",
+    "Img": "12.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/backSchoolNeals",
     "DeployLink": ""
   },
   {
-    "title": "E-Commerce",
-    "descriction": "This is the project I am currently working on. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
-    "Img": "../../assests/images/10.png",
-    "GitHubLink": "https://github.com/DiegoDimitroffPetcoff/EcommerceProject",
+    "title": "API Rest / CRUD",
+    "descriction": "The project demonstrates how to use Express.js and Node.js to create a RESTful API for performing CRUD operations on a MongoDB database. The article explains the various components of the application, including middleware for processing JSON and form data, API routes associated with controllers, controllers handling HTTP requests, services interacting with the database, and the database connection itself. The code provided in the project serves as a practical example for creating a backend application using Node.js, Express.js, and MongoDB..",
+    "Img": "8.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/CRUDforStudents",
+    "GitHubLinkBack": "",
     "DeployLink": ""
   },
   {
-    "title": "E-Commerce",
-    "descriction": "This is the project I am currently working on. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
-    "Img": "../../assests/images/10.png",
-    "GitHubLink": "https://github.com/DiegoDimitroffPetcoff/EcommerceProject",
+    "title": "E-COMMERCE PROJECT",
+    "descriction": "This is my first experience working in a team. This project is an App to manage a gym. Here my participation was within the Backend team and we work with different technologies. On the Backend: Node.js and Express,   and on the Frontend with React js.",
+    "Img": "5.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/GYM-administration-APP",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "My first React Project",
+    "descriction": "This is my first (and only, at the moment) project made in React. I am currently learning a little about this technology. This site is under construction, but I think you will enjoy its images!",
+    "Img": "7.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/reactProject",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://react-project-kiruna-trip.netlify.app/"
+  },
+  {
+    "title": "Backend Project",
+    "descriction": "This was one of my first projects. It was the result of a Backend course carried out in Argentina. It has an MVC architecture, which is generated with NODE.JS, using Express. It is    currently under construction, but its functionalities can be observed.   This project was being deployed by Heroku app until recently. A few days    ago I moved the deploy to a new tool called Railway. You can read the  article I wrote about it HERE!",
+    "Img": "2.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
     "DeployLink": ""
   }
 ]
+
+
