@@ -6,7 +6,7 @@ const WorkingOnPage = () => {
     <div className="gralContent" style={{justifyContent:"center"}}>
       <h1>Hi! Im still working on this page</h1>
       <h2>Is gonna be ready very soon!</h2>
-      <img src={LogoTransparent} alt="Logo Diego Dimitrogg" />
+      <img  data-aos="flip-up" src={LogoTransparent} alt="Logo Diego Dimitrogg" />
     </div>
   );
 };

@@ -5,8 +5,8 @@ const Projects = () => {
     <div className="gralContent">
       {" "}
       <div data-aos="fade-right">
-        <h1 className="titlePage">Projects</h1>
-        <h2 className="subtitlePage">
+        <h1 className="gralTitle">Projects</h1>
+        <h2 className="gralSubtitle">
           In this section I will be posting all my projects, from the newest to
           the oldest.
         </h2>

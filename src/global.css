@@ -145,7 +145,7 @@
   color: whitesmoke;
 }
 
-/* PROJECTS */
+/* GRAL CONTENT  */
 .gralContent {
   align-items: start;
   color: whitesmoke;
@@ -153,9 +153,15 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 150px 10%;
 }
+.gralTitle {
+  font-size: 50px;
+}
+.gralSubtitle {
+  font-size: 15px;
+}
 
-/* PROJECTSLIST */
-.contentProjectList {
+/* SECTIONS - This are inside of each GRAL CONTENT */
+.contentSection {
   display: flex;
   flex-direction: row;
   width: auto;
@@ -167,4 +173,9 @@
   border: solid;
   max-width: 300px;
   margin: 3px;
+}
+
+/* BLOG */
+.blogContent {
+  margin: 10px;
 }

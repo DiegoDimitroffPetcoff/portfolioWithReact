@@ -24,6 +24,7 @@ const NavBar = () => {
         >
           Projects
         </Link>
+        
         <Link
           className="linkNavBar"
           to="/blog"
@@ -57,6 +58,7 @@ const NavBar = () => {
         style={{ display: "flex", justifyContent: "center" }}
       >
         <img
+         data-aos="flip-up"
           src={LogoTransparent}
           alt="Logo Diego Dimitrogg"
           className="navLogo"

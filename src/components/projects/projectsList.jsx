@@ -10,7 +10,7 @@ import { IoServerOutline } from "react-icons/io5";
 const ProjectsList = () => {
 
   return (
-    <div className="contentProjectList">
+    <article className="contentSection">
       {projects.map((project, index) => (
         <Card
           style={{ width: "18rem", margin: "5px", maxHeight: "400px" }}
@@ -61,7 +61,7 @@ const ProjectsList = () => {
           </Card.Body>
         </Card>
       ))}
-    </div>
+    </article>
   );
 };
 export default ProjectsList;
