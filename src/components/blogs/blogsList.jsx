@@ -9,7 +9,7 @@ const BlogsList = () => {
   return (
     <article>
       {blogs.map((blog, index) => (
-        <Accordion key={index}  className="blogContent">
+        <Accordion key={index} className="blogContent">
           <Accordion.Item eventKey={index}>
             <Accordion.Header
               style={{
@@ -37,7 +37,6 @@ const BlogsList = () => {
                     allowFullScreen=""
                     title="Embedded post"
                     height="300"
-                    
                   ></iframe>
                 ) : null}
               </section>
