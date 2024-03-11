@@ -2,7 +2,7 @@ import BlogsList from "./blogsList";
 
 const Blog = () => {
   return (
-    <div className="gralContent">
+    <section className="gralContent">
       {" "}
       <div data-aos="fade-right">
         <h1 className="gralTitle">Blog</h1>
@@ -15,7 +15,7 @@ const Blog = () => {
         </h2>
       </div>
       <BlogsList />
-    </div>
+    </section>
   );
 };
 export default Blog;

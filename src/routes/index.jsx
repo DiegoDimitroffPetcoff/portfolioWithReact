@@ -8,6 +8,7 @@ import WorkingOnPage from "../components/common/workingOnPage";
 const Layout = lazy(() => import("../components/common/layout"));
 const Projects = lazy(() => import("../components/projects/projects"));
 const Blog = lazy(() => import("../components/blogs/blog"));
+const WhoIAm = lazy(() => import("../components/whoIAm/whoIAm"));
 
 function Spinning() {
   return (
@@ -33,6 +34,7 @@ const RoutesIndex = () => {
           <Route path="/" element={<Profile />}></Route>
           <Route path="projects" element={<Projects />}></Route>
           <Route path="blog" element={<Blog />}></Route>
+          <Route path="whoIAm" element={<WhoIAm />}></Route>
           <Route path="workingOnPage" element={<WorkingOnPage />}></Route>
         </Route>
 

@@ -179,3 +179,47 @@
 .blogContent {
   margin: 10px;
 }
+/* WHO I AM? -*/
+.sectionWhoIam {
+  display: flex;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  justify-content:space-around;
+  align-items: center;
+  margin: 10px;
+}
+.paragraphWhoIam {
+  display: flex;
+  text-align: justify;
+  font-style: oblique;
+  width: 48%;
+}
+.imgWhoIam {
+  width: 48%;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+@media (max-width: 767px) {
+  .sectionWhoIam {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+  }
+  .paragraphWhoIam {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-style: oblique;
+
+  }
+  .imgWhoIam {
+    width: 48%;
+    border-radius: 10px;
+ 
+  }
+}

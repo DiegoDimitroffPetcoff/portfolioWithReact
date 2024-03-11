@@ -45,7 +45,7 @@ const NavBar = () => {
         </Link>
         <Link
           className="linkNavBar"
-          to="/WorkingOnPage"
+          to="/whoIAm"
           onClick={() => {
             setNavBarVisible(false);
           }}
