@@ -40,6 +40,7 @@
   right: 5%;
   filter: drop-shadow(0px 0px 100px rgba(40, 40, 155, 0.41));
 }
+
 /* LAYOUT - responsive */
 @media (max-width: 767px) {
   .sectionLayout {

@@ -5,45 +5,53 @@ import {
   AiOutlineMail,
   AiFillPhone,
 } from "react-icons/ai";
+
 const Profile = () => {
   return (
     <div className="contentProfile">
-      <div className="lineContent">
+      <header>
         <h1 data-aos="fade-right">Diego Dimitroff Petcoff</h1>
-      </div>
+      </header>
 
-      <div>
+      <nav>
         <Link
           className="linkProfile"
           to="https://github.com/DiegoDimitroffPetcoff"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="GitHub Profile"
         >
-          <AiFillGithub></AiFillGithub>
+          <AiFillGithub size={40} />
         </Link>
         <Link
           className="linkProfile"
           to="https://www.linkedin.com/in/diegodimitroffpetcoff/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Linkedin Profile"
         >
-          <AiOutlineLinkedin></AiOutlineLinkedin>
+          <AiOutlineLinkedin size={40} />
         </Link>
 
-        <a className="linkProfile" href="tel:+46769681000">
-          <AiFillPhone></AiFillPhone>
+        <a
+          className="linkProfile"
+          href="tel:+46769681000"
+          aria-label="Call to Diego Dimitroff Petcoff's phone"
+        >
+          <AiFillPhone size={40} />
         </a>
-
         <a
           className="linkProfile"
           href="mailto:diegodimitroffpetcoff@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Send Email to Diego Dimitroff Petcoff"
         >
-          <AiOutlineMail></AiOutlineMail>
+          <AiOutlineMail size={40} />
         </a>
-      </div>
+      </nav>
     </div>
   );
 };
+
 export default Profile;
