@@ -153,11 +153,39 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 150px 10%;
 }
+
+.gralContentHeader {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+}
 .gralTitle {
   font-size: 50px;
 }
 .gralSubtitle {
   font-size: 15px;
+}
+
+@media (max-width: 767px) {
+  .gralContent {
+    margin: 150px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gralContentHeader {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    width: 83%;
+    align-items: center;
+    margin: 10px;
+    padding: 30px;
+  }
 }
 
 /* SECTIONS - This are inside of each GRAL CONTENT */
@@ -184,7 +212,7 @@
   display: flex;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
   width: 100%;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   margin: 10px;
 }
@@ -205,7 +233,7 @@
     display: flex;
     flex-direction: column;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 83%;
     align-items: center;
     margin: 10px;
     padding: 30px;
@@ -215,11 +243,9 @@
     flex-direction: column;
     width: 100%;
     font-style: oblique;
-
   }
   .imgWhoIam {
     width: 48%;
     border-radius: 10px;
- 
   }
 }

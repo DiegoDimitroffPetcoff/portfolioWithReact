@@ -3,8 +3,7 @@ import BlogsList from "./blogsList";
 const Blog = () => {
   return (
     <section className="gralContent">
-      {" "}
-      <div data-aos="fade-right">
+      <div className="gralContentHeader">
         <h1 className="gralTitle">Blog</h1>
         <h2 className="gralSubtitle">
           This is a space where I will be posting projects that I am currently
@@ -14,6 +13,7 @@ const Blog = () => {
           projects I am working on, the ideas that arise and much more.
         </h2>
       </div>
+
       <BlogsList />
     </section>
   );
