@@ -1,12 +1,22 @@
 [
   {
+    "title": "Excited to Share: Sneak Peek of My Latest PWA Project!",
+    "description": "Hey everyone! 👋 I wanted to give you a quick glimpse into the Progressive Web App (PWA) I'm currently working on. Check out this short video showcasing the awesome features I've been implementing!I've integrated Microsoft Graph for seamless login functionality, allowing users to securely access the app with ease. Plus, I'm utilizing React Viewer to dynamically generate and display PDFs within the app. And the best part? Everything is automatically saved to OneDrive for convenient access and storage.This project has been a thrilling journey so far, and I can't wait to share more updates with you soon. Stay tuned for more behind-the-scenes peeks and progress reports!Watch the video here: [insert link to video]#PWA #MicrosoftGraph #ReactViewer #OneDrive #WebDevelopment #ProgressUpdate",
+    "Img": "15.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/INDIRE-PWA",
+    "GitHubLinkBack": "",
+    "iframe": "https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7180550065218797568",
+    "DeployLink": "https://indire-portugal.vercel.app/",
+    "date": "04/03/24"
+  },
+  {
     "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
     "description": "New project in development! This is an application that will be used by a company specializing in building renovations. In this case, the client's need to address is to optimize the analysis process they undertake for new projects, thereby streamlining the work currently required to describe and detail all the tasks for a new client. With this application, the client will be able to create new projects, which will serve to detail all the work required for their clients (the renovations needed in specific buildings). They will also have the ability to streamline the creation of detailed budgets for each section to be developed, generate PDF and WORD documents from them, and automate saving them directly to their ONEDRIVE account. This project has the interesting feature of being developed solely on the frontend with JavaScript and using OneDrive (in a manner of speaking) as a database, as all documents will be saved automatically. The entire project will be formatted as a PWA with the goal of being usable on Android devices and PCs initially. The application will work both offline and online, so that information created is saved, and when reconnected, changes are compared with those currently stored to update appropriately..",
     "Img": "15.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/INDIRE-PWA",
     "GitHubLinkBack": "",
     "iframe": "",
-    "DeployLink": "",
+    "DeployLink": "https://indire-portugal.vercel.app/",
     "date": "17/01/24"
   },
   {
@@ -23,7 +33,7 @@
   {
     "title": "Migrating from a static project to a scalable one in React",
     "description": "In this article, I will present my new project built in React, showcase the previous one and compare the two websites that I have constructed to observe the differences in technologies and design. The new site, https://diegodimitroffpetcoff-f5qv9vv5a-diegodimitroffpetcoff.vercel.app/, is a React application with reusable components, while the old website, https://diegodimitroffpetcoff.github.io/Porfolio/, is a static page built with HTML, CSS, and JavaScript. Although both options are valid for building websites, it is interesting to see how different technologies have been used for each project. In terms of design, the new website has a more minimalist style and uses a softer color palette, while the old website uses more vibrant colors. Of course, I have found some preferences and that is why I decided to make modifications in the new project. I can say that the differences in design may be due to the nature of each project, with the first website being more focused on simplicity and functionality, and the second website being more focused on visual design. In terms of file structure, the new website uses a typical folder and file structure of a React application, while the second website has all its files at the root of the GitHub repository. My intention with this is to reflect my evolution as a developer over time and how I have learned to structure my projects more efficiently. In conclusion, comparing two built websites can be an excellent way to observe differences in technologies, design, and file structure. Although each project is unique and should be built with its own needs in mind, observing how other developers build their websites can provide valuable ideas and knowledge for our own work. I hope you have time to browse my portfolio and see my work!",
-    "Img":"10.png",
+    "Img": "10.png",
     "GitHubLinkFront": "",
     "GitHubLinkBack": "",
     "iframe": "https://diegodimitroffpetcoff.github.io/Porfolio/",
