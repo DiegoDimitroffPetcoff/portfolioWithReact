@@ -5,6 +5,7 @@ import {
   AiOutlineMail,
   AiFillPhone,
 } from "react-icons/ai";
+import CvButton from "./CvButtons/cvButton";
 
 const Profile = () => {
   return (
@@ -14,6 +15,8 @@ const Profile = () => {
       </header>
 
       <nav>
+        <CvButton />
+
         <Link
           className="linkProfile"
           to="https://github.com/DiegoDimitroffPetcoff"

@@ -9,14 +9,18 @@ const Layout = () => {
       <nav>
         <NavBar />
       </nav>
+
       <header className="sectionLayout">
         <Outlet />
+
         <img
           src={DiegoProfile}
           className="imgProfile"
           alt="Diego Dimitroff Profile"
         />
+        <div></div>
       </header>
+
     </div>
   );
 };
