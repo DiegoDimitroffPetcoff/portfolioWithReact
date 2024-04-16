@@ -2,6 +2,7 @@ import NavBar from "./navBar";
 import "../../global.css";
 import DiegoProfile from "../../assests/images/diego.png";
 import { Outlet } from "react-router-dom";
+import Slice from "./slice/slice";
 
 const Layout = () => {
   return (
@@ -18,9 +19,10 @@ const Layout = () => {
           className="imgProfile"
           alt="Diego Dimitroff Profile"
         />
-        <div></div>
       </header>
-
+      <footer>
+        <Slice />
+      </footer>
     </div>
   );
 };

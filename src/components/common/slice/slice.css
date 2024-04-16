@@ -1,0 +1,34 @@
+.logos {
+  display: block;
+  background-color: rgb(77, 57, 97);
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: fit-content;
+  white-space: nowreap;
+  overflow: hidden;
+}
+
+@keyframes slice {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+.logos-slice {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-evenly;
+  animation: slice 40s  linear infinite;
+}
+.branch {
+  width: 5%;
+}
+@media (max-width: 767px) {
+  .branch {
+    width: 10%;
+  }
+}
