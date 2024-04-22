@@ -6,6 +6,7 @@ import {
   AiFillPhone,
 } from "react-icons/ai";
 import CvButton from "./CvButtons/cvButton";
+import Slice from "./slice/slice";
 
 const Profile = () => {
   return (
@@ -53,6 +54,7 @@ const Profile = () => {
           <AiOutlineMail size={40} />
         </a>
       </nav>
+      <Slice/>
     </div>
   );
 };

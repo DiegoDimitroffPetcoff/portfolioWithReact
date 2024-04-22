@@ -1,11 +1,11 @@
 .logos {
   display: block;
-  background-color: rgb(77, 57, 97);
+  background-color: #2125296b;
   width: 100%;
   position: absolute;
   bottom: 0;
   height: fit-content;
-  white-space: nowreap;
+
   overflow: hidden;
 }
 
@@ -14,7 +14,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(calc(-250px * 9));
+    transform: translateX(calc(-250px * 7));
   }
 }
 .logos-slice {

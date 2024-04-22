@@ -20,9 +20,7 @@ const Layout = () => {
           alt="Diego Dimitroff Profile"
         />
       </header>
-      <footer>
-        <Slice />
-      </footer>
+
     </div>
   );
 };

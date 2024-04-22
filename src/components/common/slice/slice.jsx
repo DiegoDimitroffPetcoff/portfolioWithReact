@@ -5,7 +5,7 @@ import Aumla from "../../../assests/images/branchs/aumla.png";
 import Zuca from "../../../assests/images/branchs/zuca.png";
 import ZucarellitaNails from "../../../assests/images/branchs/zucarellitaNails.png";
 const Slice = () => {
-  const branchs = [Actitud, Aumla, Zuca, ZucarellitaNails];
+  const branchs = [Actitud, Aumla, Zuca, ZucarellitaNails,Actitud, Aumla, Zuca, ZucarellitaNails,Actitud, Aumla, Zuca, ZucarellitaNails];
   return (
     <div className="logos">
       <div className="logos-slice">
