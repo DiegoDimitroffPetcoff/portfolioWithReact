@@ -54,7 +54,7 @@ const Profile = () => {
           <AiOutlineMail size={40} />
         </a>
       </nav>
-      <Slice/>
+  {/*     <Slice/> */}
     </div>
   );
 };
