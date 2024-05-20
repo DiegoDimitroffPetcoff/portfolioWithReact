@@ -88,10 +88,24 @@ const WhoIAm = () => {
         </section>
         <section className="sectionWhoIam" style={{ flexDirection: "column" }}>
           <p>
-            I'm currently working as a Freelance developer, developing an
-            application for a Portuguese company called INDIRE, where I'm in
-            charge of the complete development of both the frontend and backend,
-            deployment, maintenance, and testing.
+            My journey into the realm of technology led me to specialize in Full
+            Stack Development, where I've immersed myself in crafting robust
+            solutions tailored to meet the unique needs of clients. Leveraging
+            frameworks like Node.js, Express.js, and Nest.js for backend
+            development, coupled with technologies like React.js for frontend,
+            I've spearheaded numerous projects from conception to execution. In
+            my current role as a Freelance Developer, I'm deeply engaged in
+            developing an application for INDIRE, a Portuguese company, where I
+            oversee the entire development lifecycle—from frontend and backend
+            development to deployment, maintenance, and testing. My proficiency
+            extends to database management, with a preference for MongoDB while
+            also being adept in SQL. Throughout my career, I've embraced
+            continuous learning, exploring cutting-edge technologies such as
+            Progressive Web Apps (PWA) and integrating services like Microsoft
+            Graph to enhance application functionality. I'm passionate about
+            staying at the forefront of industry trends and methodologies, which
+            is reflected in my commitment to ongoing professional development.
+            Thank you for taking the time to learn about my journey!
           </p>
           <p>Thank you for reading!</p>
         </section>
