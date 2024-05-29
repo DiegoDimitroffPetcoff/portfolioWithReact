@@ -4,7 +4,7 @@ const CvButton = () => {
   return (
     <a
       className="button-35"
-      href="./CV.pdf"
+      href="./CV-DiegoDimitroffPetcoff.pdf"
       target="_blank"
       download="CV-DiegoDimitroffPetcoff.pdf"
     >
