@@ -36,12 +36,12 @@ const NavBar = () => {
         </Link>
         <Link
           className="linkNavBar"
-          to="/WorkingOnPage"
+          to="/MyEducation"
           onClick={() => {
             setNavBarVisible(false);
           }}
         >
-          Articles
+          My Education
         </Link>
         <Link
           className="linkNavBar"

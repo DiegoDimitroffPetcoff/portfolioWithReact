@@ -8,6 +8,8 @@ import WorkingOnPage from "../components/common/workingOnPage";
 const Layout = lazy(() => import("../components/common/layout"));
 const Projects = lazy(() => import("../components/projects/projects"));
 const Blog = lazy(() => import("../components/blogs/blog"));
+const Education = lazy(() => import("../components/education/education"));
+
 const WhoIAm = lazy(() => import("../components/whoIAm/whoIAm"));
 
 function Spinning() {
@@ -35,6 +37,7 @@ const RoutesIndex = () => {
           <Route path="projects" element={<Projects />}></Route>
           <Route path="blog" element={<Blog />}></Route>
           <Route path="whoIAm" element={<WhoIAm />}></Route>
+          <Route path="MyEducation" element={<Education />}></Route>
           <Route path="workingOnPage" element={<WorkingOnPage />}></Route>
         </Route>
 

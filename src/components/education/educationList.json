@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Experience certificate - Full Stack development ",
+    "description": "For having successfully passed the No COuntry selected emulation instance as a Junior developer.",
+    "Img": "1certificate.jpg",
+
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "Introduction to programming course",
+    "description": "Satisfactory completion of the introductory programming course taught by the Undersecretary of Employment of Chaco - Argentina.",
+    "Img": "2certificate.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "Introduction to programming course",
+    "description": "Satisfactory completion of the introductory programming course taught by the Undersecretary of Employment of Chaco - Argentina.",
+    "Img": "3certificate.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "Introduction to programming course",
+    "description": "Satisfactory completion of the introductory programming course taught by the Undersecretary of Employment of Chaco - Argentina.",
+    "Img": "5certificate.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  },
+  {
+    "title": "Introduction to programming course",
+    "description": "Satisfactory completion of the introductory programming course taught by the Undersecretary of Employment of Chaco - Argentina.",
+    "Img": "4certificate.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": ""
+  }
+]
