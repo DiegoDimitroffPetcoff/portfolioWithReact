@@ -1,9 +1,24 @@
 [
   {
+    "title": "Computer Science Principles: Digital Information” by Doug Winnie",
+    "description": "Course carried out on the Linkedin Learning platform.",
+    "Img": "7certificate.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://www.linkedin.com/learning/certificates/46ce27ec23624c6979e3631d66c320daa1ee42f146418da943bd18e184bbc003"
+  },
+  {
+    "title": "HTML Essential Training” by Jen Simmons",
+    "description": "Course carried out on the Linkedin Learning platform.",
+    "Img": "6certificate.png",
+    "GitHubLinkFront": "",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://www.linkedin.com/learning/certificates/23de7714555404211183380816c0459469fc1858e650008fdbed59486bc7af54"
+  },
+  {
     "title": "Experience certificate - Full Stack development ",
     "description": "For having successfully passed the No COuntry selected emulation instance as a Junior developer.",
     "Img": "1certificate.jpg",
-
     "GitHubLinkFront": "",
     "GitHubLinkBack": "",
     "DeployLink": ""
@@ -22,7 +37,7 @@
     "Img": "3certificate.png",
     "GitHubLinkFront": "",
     "GitHubLinkBack": "",
-    "DeployLink": ""
+    "DeployLink": "https://www.linkedin.com/learning/certificates/09833d48f9a6d50e9323600060bbd17e6707b4125eccd2efa56ee399ef2001a2?trk=share_certificate #cascadingstylesheets"
   },
   {
     "title": "Google Analytics",
@@ -38,6 +53,6 @@
     "Img": "4certificate.png",
     "GitHubLinkFront": "",
     "GitHubLinkBack": "",
-    "DeployLink": ""
+    "DeployLink": "https://www.linkedin.com/learning/certificates/8936a5bcc9c04f71f1cd2ced64b6a288b9c9524b2eb61dcecdb885bfc8f01964"
   }
 ]

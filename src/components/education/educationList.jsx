@@ -4,7 +4,8 @@ import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal"; // Agrega la importación para el modal
 import projects from "./educationList.json";
 import { FaGithub } from "react-icons/fa";
-import { FaReact } from "react-icons/fa";
+
+import { IoIosLink } from "react-icons/io";
 import { IoServerOutline } from "react-icons/io5";
 
 const EducationList = () => {
@@ -24,12 +25,13 @@ const EducationList = () => {
           style={{ width: "18rem", margin: "5px", maxHeight: "400px" }}
           data-aos="flip-left"
           key={index}
-          onClick={() => handleCardClick(project.Img)} // Cambiado para llamar a la función handleCardClick
+          // Cambiado para llamar a la función handleCardClick
         >
           <Card.Img
             variant="top"
             style={{ minHeight: "150px" }}
             src={require(`../../assests/images/${project.Img}`)}
+            onClick={() => handleCardClick(project.Img)}
           />
           <Card.Body>
             <div
@@ -52,7 +54,7 @@ const EducationList = () => {
               )}
               {project.DeployLink && (
                 <Link target="_blank" to={project.DeployLink}>
-                  <FaReact />
+                  <IoIosLink />
                 </Link>
               )}
             </div>
