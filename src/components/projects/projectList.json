@@ -9,7 +9,7 @@
   },
   {
     "title": "Tic Tac Tou (React Js)",
-    "description": "Tic-tac-toe game with React and Vite, featuring persistent state, winner detection, celebrations, and a reset option.",
+    "description": "Tic-tac-toe game with React and Vite, featuring persistent state, winner detection, celebrations, and a reset option. Vite + React ",
     "Img": "17.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/tic-tac-toe",
     "GitHubLinkBack": "",
