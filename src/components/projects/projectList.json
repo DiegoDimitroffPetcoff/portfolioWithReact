@@ -1,5 +1,21 @@
 [
   {
+    "title": "Locos-Por-Las-Estrellas (React Native)",
+    "description": "The application is designed to display daily astronomical images obtained from an external API, as well as images from the last five days.",
+    "Img": "16.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/Locos-Por-Las-Estrellas",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://expo.dev/preview/update?message=Add%20Project&updateRuntimeVersion=1.0.0&createdAt=2024-05-25T14%3A28%3A49.402Z&slug=exp&projectId=07b83ba9-4509-4472-ac9a-f43dd8678691&group=46581199-07fa-46b6-aee4-72392682dc61"
+  },
+  {
+    "title": "Tic Tac Tou (React Js)",
+    "description": "Tic-tac-toe game with React and Vite, featuring persistent state, winner detection, celebrations, and a reset option.",
+    "Img": "17.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/tic-tac-toe",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://tic-tac-toe-five-ecru.vercel.app/"
+  },
+  {
     "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
     "description": "Application for building renovations. Frontend in React, utilizes OneDrive as database. Works offline as PWA.",
     "Img": "15.png",
