@@ -24,6 +24,22 @@
     "DeployLink": "https://indire-portugal.vercel.app/"
   },
   {
+    "title": "Cats Love App",
+    "description": "Application with images and information about kittens..",
+    "Img": "19.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/catsLovers",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://cats-lovers.vercel.app/"
+  },
+  {
+    "title": "Movies Searcher",
+    "description": "Application created to find information about movies. Started with Vite Vanilla Javascript and generated with React.",
+    "Img": "18.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/moviesSearcher",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://movies-searcher-chi.vercel.app/"
+  },
+  {
     "title": "CHAT APP",
     "description": "Team-built chat app within NO COUNTRY community for user interaction.",
     "Img": "14.png",
