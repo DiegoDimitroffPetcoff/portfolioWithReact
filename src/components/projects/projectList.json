@@ -3,9 +3,9 @@
     "title": "Countries VS Kangaroos (React)",
     "description": "Countries vs Kangaroos is a web app comparing country populations to kangaroo populations using the Rest Countries API, offering a fun and educational experience.",
     "Img": "21.png",
-    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/ecommerce/tree/main",
+    "GitHubLinkFront": "https://countries-vs-kangaroos.vercel.app/",
     "GitHubLinkBack": "",
-    "DeployLink": "https://ecommerce-ebon-alpha.vercel.app/"
+    "DeployLink": "https://github.com/DiegoDimitroffPetcoff/countriesVs"
   },
   {
     "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
