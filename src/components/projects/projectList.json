@@ -1,5 +1,29 @@
 [
   {
+    "title": "Countries VS Kangaroos (React)",
+    "description": "Countries vs Kangaroos is a web app comparing country populations to kangaroo populations using the Rest Countries API, offering a fun and educational experience.",
+    "Img": "21.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/ecommerce/tree/main",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://ecommerce-ebon-alpha.vercel.app/"
+  },
+  {
+    "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
+    "description": "Application for building renovations. Frontend in React, utilizes OneDrive as database. Works offline as PWA.",
+    "Img": "15.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/INDIRE-PWA",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://indire-portugal.vercel.app/"
+  },
+  {
+    "title": "Ecommerce (React)",
+    "description": "'Mercado De Pulgas' is a React e-commerce app allowing users to search, filter products, and manage a shopping cart with local storage persistence and products fetched from an API.",
+    "Img": "20.png",
+    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/ecommerce/tree/main",
+    "GitHubLinkBack": "",
+    "DeployLink": "https://ecommerce-ebon-alpha.vercel.app/"
+  },
+  {
     "title": "Locos-Por-Las-Estrellas (React Native)",
     "description": "The application is designed to display daily astronomical images obtained from an external API, as well as images from the last five days.",
     "Img": "16.png",
@@ -15,14 +39,7 @@
     "GitHubLinkBack": "",
     "DeployLink": "https://tic-tac-toe-five-ecru.vercel.app/"
   },
-  {
-    "title": "Indire Project - Full Stack development (React Js + PWF + Microsoft Graph)",
-    "description": "Application for building renovations. Frontend in React, utilizes OneDrive as database. Works offline as PWA.",
-    "Img": "15.png",
-    "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/INDIRE-PWA",
-    "GitHubLinkBack": "",
-    "DeployLink": "https://indire-portugal.vercel.app/"
-  },
+
   {
     "title": "Cats Love App",
     "description": "Application with images and information about kittens..",
@@ -93,7 +110,7 @@
     "Img": "7.png",
     "GitHubLinkFront": "https://github.com/DiegoDimitroffPetcoff/reactProject",
     "GitHubLinkBack": "",
-    "DeployLink": "https://react-project-kiruna-trip.netlify.app/"
+    "DeployLink": ""
   },
   {
     "title": "Backend Project",
@@ -101,6 +118,6 @@
     "Img": "2.png",
     "GitHubLinkFront": "",
     "GitHubLinkBack": "https://github.com/DiegoDimitroffPetcoff/Desarrollo-Ecommerce",
-    "DeployLink": "https://ecommerce-project-fkfr.vercel.app/"
+    "DeployLink": ""
   }
 ]
